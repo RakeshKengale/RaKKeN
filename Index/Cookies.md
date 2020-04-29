@@ -28,7 +28,7 @@ In order to secure cookie data, the industry has developed means to help lock do
 5. Expires
 6. SameSite
 
-**1. Secure Attribute**
+#### 1. Secure Attribute
 
 The `Secure` attribute tells the browser to only send the cookie if the request is being sent over a secure channel such as `HTTPS`. This will help protect the cookie from being passed in unencrypted requests. If the application can be accessed over both `HTTP` and `HTTPS`, an attacker could be able to redirect the user to send their cookie as part of non-protected requests.
 
