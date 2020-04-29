@@ -17,16 +17,16 @@ The __OWASP__ Top 10 is a regularly-updated report outlining security concerns f
 
 ## OWASP Top 10 (2017)
 
-1. [Injection](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#1-injection)
-2. [Broken Authentication](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#2-broken-authentication)
-3. [Sensitive Data Exposure](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#3-sensitive-data-exposure)
-4. [XML External Entities (XXE)](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#4-xml-external-entities-xee)
-5. [Broken Access control](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#5-broken-access-control)
-6. [Security misconfigurations](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#6-security-misconfiguration)
-7. [Cross Site Scripting (XSS)](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#7-cross-site-scripting)
-8. [Insecure Deserialization](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#8-insecure-deserialization)
-9. [Using Components with known vulnerabilities](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#9-using-components-with-known-vulnerabilities)
-10. [Insufficient logging and monitoring](https://github.com/RakeshKengale/RaKKeN/blob/master/OWASP_Top_10.md#10-insufficient-logging-and-monitoring)
+1. [Injection](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#1-injection)
+2. [Broken Authentication](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#2-broken-authentication)
+3. [Sensitive Data Exposure](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#3-sensitive-data-exposure)
+4. [XML External Entities (XXE)](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#4-xml-external-entities-xee)
+5. [Broken Access control](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#5-broken-access-control)
+6. [Security misconfigurations](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#6-security-misconfiguration)
+7. [Cross Site Scripting (XSS)](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#7-cross-site-scripting)
+8. [Insecure Deserialization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#8-insecure-deserialization)
+9. [Using Components with known vulnerabilities](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#9-using-components-with-known-vulnerabilities)
+10. [Insufficient logging and monitoring](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md#10-insufficient-logging-and-monitoring)
 
 
 ## 1. Injection
