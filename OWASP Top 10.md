@@ -18,7 +18,7 @@ The __OWASP__ Top 10 is a regularly-updated report outlining security concerns f
 ![Image of OWASP_Top_10](https://www.checkmarx.com/wp-content/uploads/2017/12/owaspdocumen.png)
 
 
-OWASP Top 10 - 2013 | OWASP Top 10 - 2017
+OWASP Top 10 - 2013 | :arrow_right: | OWASP Top 10 - 2017
 ------------------ | ------------------
 A1 – Injection     | :arrow_right: | A1:2017 – Injection |
 A2 – Broken Authentication and Session Management | :arrow_right: | A2:2017 – Broken Authentication |
