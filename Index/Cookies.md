@@ -21,22 +21,18 @@ In order to secure cookie data, the industry has developed means to help lock do
 
 
 ### Cookie Attributes:
-- Secure
-- Domain
-- Path
-- HTTPOnly
-- Expires
+1. Secure
+2. Domain
+3. Path
+4. HTTPOnly
+5. Expires
+6. SameSite
 
-**Secure Attribute**
+**1. Secure Attribute**
 
 The `Secure` attribute tells the browser to only send the cookie if the request is being sent over a secure channel such as `HTTPS`. This will help protect the cookie from being passed in unencrypted requests. If the application can be accessed over both `HTTP` and `HTTPS`, an attacker could be able to redirect the user to send their cookie as part of non-protected requests.
 
-**HttpOnly Attribute**
-
-The `HttpOnly` attribute is used to help prevent attacks such as session leakage, since it does not allow the cookie to be accessed via a client side script such as JavaScript.
->This doesn’t limit the whole attack surface of XSS attacks, as an attacker could still send request in place of the user, but limits immensely the reach of XSS attack vectors.
-
-**Domain Attribute**
+**2. Domain Attribute**
 
 The `Domain` attribute is used to compare the cookie’s domain against the domain of the server for which the HTTP request is being made. If the domain matches or if it is a subdomain, then the `path` attribute will be checked next.
 
@@ -44,7 +40,7 @@ Note that only hosts that belong to the specified domain can set a cookie for th
 
 For example, if a cookie is set by an application at `app.mydomain.com` with no domain attribute set, then the cookie would be resubmitted for all subsequent requests for `app.mydomain.com` and its subdomains (such as `hacker.app.mydomain.com`), but not to `otherapp.mydomain.com`. If a developer wanted to loosen this restriction, then he could set the domain attribute to `mydomain.com`. In this case the cookie would be sent to all requests for `app.mydomain.com` and `mydomain.com` subdomains, such as `hacker.app.mydomain.com`, and even `bank.mydomain.com`. If there was a vulnerable server on a subdomain (for example, `otherapp.mydomain.com`) and the domain attribute has been set too loosely (for example, `mydomain.com`), then the vulnerable server could be used to harvest cookies (such as session tokens) across the full scope of `mydomain.com`.
 
-**Path Attribute**
+**3. Path Attribute**
 
 The `Path` attribute plays a major role in setting the scope of the cookies in conjunction with the `domain`. In addition to the domain, the URL path that the cookie is valid for can be specified. If the domain and path match, then the cookie will be sent in the request. Just as with the domain attribute, if the path attribute is set too loosely, then it could leave the application vulnerable to attacks by other applications on the same server. For example, if the path attribute was set to the web server root /, then the application cookies will be sent to every application within the same domain (if multiple application reside under the same server). A couple of examples for multiple applications under the same server:
 
@@ -53,7 +49,14 @@ The `Path` attribute plays a major role in setting the scope of the cookies in c
 - `path=/docs`
 - `path=/docs/admin`
 
-**Expires Attribute**
+
+**4. HttpOnly Attribute**
+
+The `HttpOnly` attribute is used to help prevent attacks such as session leakage, since it does not allow the cookie to be accessed via a client side script such as JavaScript.
+>This doesn’t limit the whole attack surface of XSS attacks, as an attacker could still send request in place of the user, but limits immensely the reach of XSS attack vectors.
+
+
+**5. Expires Attribute**
 
 The `Expires` attribute is used to:
 
@@ -63,7 +66,7 @@ The `Expires` attribute is used to:
 
 Unlike session cookies, persistent cookies will be used by the browser until the cookie expires. Once the expiration date has exceeded the time set, the browser will delete the cookie.
 
-**SameSite Attribute**
+**6. SameSite Attribute**
 
 The `SameSite` attribute is used to assert that a cookie ought not to be sent along with cross-site requests. This feature allows the server to mitigate the risk of cross-orgin information leakage. In some cases, it is used too as a risk reduction (or defense in depth mechanism) strategy to prevent `cross-site request forgery` attacks. This attribute can be configured in three different modes:
 
