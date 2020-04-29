@@ -5,4 +5,4 @@
 - ### WebAppSec
   - [OWASP Top 10](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_Top_10.md)
   - [Cookies](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md)
-  - [Comming Soon](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/)
+  - [Comming Soon](https://github.com/RakeshKengale/RaKKeN/blob/master)
