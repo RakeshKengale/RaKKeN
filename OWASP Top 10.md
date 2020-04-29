@@ -17,18 +17,20 @@ The __OWASP__ Top 10 is a regularly-updated report outlining security concerns f
 
 ![Image of OWASP_Top_10](https://www.checkmarx.com/wp-content/uploads/2017/12/owaspdocumen.png)
 
+
 OWASP Top 10 - 2013 | OWASP Top 10 - 2017
 ------------------ | ------------------
 A1 – Injection     | :arrow_right: | A1:2017 – Injection |
-A2 – Broken Authentication and Session Management | A2:2017 – Broken Authentication |
-A3 – Cross-Site Scripting (XSS) | A3:2017-Sensitive Data Exposure |
-A4 – Insecure Direct Object References [Merged+A7]  | A4:2017-XML External Entities (XXE)[NEW] |
-A5 – Security Misconfiguration | A5:2017-Broken Access Control [Merged] |
-A6 – Sensitive Data Exposure | A6:2017-Security Misconfiguration |
-A7 – MissingFunctionLevelAccessContr[Merged+A4] | A7:2017-Cross-Site Scripting (XSS) |
-A8 – Cross-Site Request Forgery (CSRF) | A8:2017-Insecure Deserialization[NEW, Community] |
-A9 – Using Components with Known Vulnerabilities | A9:2017-Using Components with Known Vulnerabilities |
-A10 – Unvalidated Redirects and Forwards | A10:2017-InsufficientLogging&Monitoring[NEW,Comm.] |
+A2 – Broken Authentication and Session Management | :arrow_right: | A2:2017 – Broken Authentication |
+A3 – Cross-Site Scripting (XSS) |:arrow_lower_right:| A3:2017-Sensitive Data Exposure |
+A4 – Insecure Direct Object References [Merged+A7]  |:arrows_clockwise:| A4:2017-XML External Entities (XXE)[NEW] |
+A5 – Security Misconfiguration |:arrow_lower_right:| A5:2017-Broken Access Control [Merged] |
+A6 – Sensitive Data Exposure |:arrow_upper_right:| A6:2017-Security Misconfiguration |
+A7 – MissingFunctionLevelAccessContr[Merged+A4] |:arrows_clockwise:| A7:2017-Cross-Site Scripting (XSS) |
+A8 – Cross-Site Request Forgery (CSRF) |:negative_squared_cross_mark:| A8:2017-Insecure Deserialization[NEW, Community] |
+A9 – Using Components with Known Vulnerabilities | :arrow_right: | A9:2017-Using Components with Known Vulnerabilities |
+A10 – Unvalidated Redirects and Forwards |:negative_squared_cross_mark:| A10:2017-InsufficientLogging&Monitoring[NEW,Comm.] |
+
 
 ## 1. Injection
 
