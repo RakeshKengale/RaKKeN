@@ -48,10 +48,10 @@ For example, if a cookie is set by an application at `app.mydomain.com` with no 
 
 The `Path` attribute plays a major role in setting the scope of the cookies in conjunction with the `domain`. In addition to the domain, the URL path that the cookie is valid for can be specified. If the domain and path match, then the cookie will be sent in the request. Just as with the domain attribute, if the path attribute is set too loosely, then it could leave the application vulnerable to attacks by other applications on the same server. For example, if the path attribute was set to the web server root /, then the application cookies will be sent to every application within the same domain (if multiple application reside under the same server). A couple of examples for multiple applications under the same server:
 
-`path=/bank`
-`path=/private`
-`path=/docs`
-`path=/docs/admin`
+- `path=/bank`
+- `path=/private`
+- `path=/docs`
+- `path=/docs/admin`
 
 **Expires Attribute**
 
@@ -98,16 +98,16 @@ The `__Host-` prefix expects cookies to fulfill the following conditions:
 For this reason, the cookie Set-Cookie: `__Host-SID=12345; Secure; Path=/` 
 would be accepted while any of the following ones would always be rejected: 
 
-Set-Cookie: `__Host-SID=12345 Set-Cookie: __Host-SID=12345; Secure` 
-Set-Cookie: `__Host-SID=12345; Domain=site.example`
-Set-Cookie: `__Host-SID=12345; Domain=site.example; Path=/` 
-Set-Cookie: `__Host-SID=12345; Secure; Domain=site.example; Path=/`
+- Set-Cookie: `__Host-SID=12345 Set-Cookie: __Host-SID=12345; Secure`
+- Set-Cookie: `__Host-SID=12345; Domain=site.example`
+- Set-Cookie: `__Host-SID=12345; Domain=site.example; Path=/`
+- Set-Cookie: `__Host-SID=12345; Secure; Domain=site.example; Path=/`
 
 
 **Secure Prefix**
 
-The __Secure- prefix is less restrictive and can be introduced by adding the case-sensitive string __Secure- to the cookie name. 
-Any cookie that matches the prefix __Secure- would be expected to fulfill the following conditions:
+The `__Secure-` prefix is less restrictive and can be introduced by adding the case-sensitive string `__Secure-` to the cookie name. 
+Any cookie that matches the prefix `__Secure-` would be expected to fulfill the following conditions:
 
 1. The cookie must be set with the Secure attribute.
 2. The cookie must be set from a URI considered secure by the user agent.
