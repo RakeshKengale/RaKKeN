@@ -52,7 +52,7 @@ The `Path` attribute plays a major role in setting the scope of the cookies in c
 
 #### 4. HttpOnly Attribute
 
-The `HttpOnly` attribute is used to help prevent attacks such as session leakage, since it does not allow the cookie to be accessed via a client side script such as JavaScript.
+The `HttpOnly` attribute is used to help prevent attacks such as session leakage, since it does not allow the cookie to be accessed via a client side script such as JavaScript. Cross Site Scripting attacks can be used to steal cookies with the help of client-side scripts. Restricting access to cookies by client-side scripts does not completely mitigate the risk of stealing cookies via XSS. However, it does raise the bar considerably and ensures that the most common XSS attack is mitigated, though not completely.
 >This doesn’t limit the whole attack surface of XSS attacks, as an attacker could still send request in place of the user, but limits immensely the reach of XSS attack vectors.
 
 
