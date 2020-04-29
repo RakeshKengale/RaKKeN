@@ -19,7 +19,7 @@ The __OWASP__ Top 10 is a regularly-updated report outlining security concerns f
 
 OWASP Top 10 - 2013 | OWASP Top 10 - 2017
 ------------------ | ------------------
-A1 – Injection     | A1:2017 – Injection |
+A1 – Injection     | :arrow_right: | A1:2017 – Injection |
 A2 – Broken Authentication and Session Management | A2:2017 – Broken Authentication |
 A3 – Cross-Site Scripting (XSS) | A3:2017-Sensitive Data Exposure |
 A4 – Insecure Direct Object References [Merged+A7]  | A4:2017-XML External Entities (XXE)[NEW] |
