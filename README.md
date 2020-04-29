@@ -1,5 +1,3 @@
-
-![Image of Yaktocat](https://github.com/RakeshKengale/Bookmark/blob/master/Images/Bookmark_Logo.png)
 # RaKKeN
 > Information Security Information From Web
 
