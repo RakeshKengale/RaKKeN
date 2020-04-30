@@ -1,5 +1,5 @@
 
-# OWASP API Security Top 10
+# OWASP Security Top 10 - API - (2019)
 
 The Open Web Application Security Project (OWASP) is a non-profit, collaborative online community behind the OWASP Top 10. They produce articles, methodologies, documentation, tools, and technologies to improve application security.
 Since 2003, OWASP Top 10 project has been the authoritative list of information prevalent to web application vulnerabilities and the ways to mitigate them. However, the rise of the APIs has — and is — changing security landscape so fundamentally that a new approach is needed. As a result, in 2019, OWASP started an effort to create a version of their Top 10 dedicated specifically to API security. The first OWASP API Security Top 10 list was released on 31 December 2019.
