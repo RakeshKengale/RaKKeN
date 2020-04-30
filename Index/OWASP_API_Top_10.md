@@ -1,3 +1,5 @@
+> **[Home](https://github.com/RakeshKengale/RaKKeN)  /  OWASP Top 10 API (2019)**
+
 
 # OWASP Top 10 - API - (2019)
 
@@ -243,3 +245,7 @@ Lack of proper logging, monitoring, and alerting allows attacks and attackers go
 - Avoid having sensitive data in logs — if you need the information for debugging purposes, redact it partially.
 - Integrate with SIEMs and other dashboards, monitoring, and alerting tools.
 
+
+## References
+- [OWASP API Security Project](https://owasp.org/www-project-api-security)
+- [OWASP launches API Security Top 10 project](https://apisecurity.io/issue-34-owasp-launches-api-security-top-10-project/)
