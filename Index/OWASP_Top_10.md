@@ -102,3 +102,7 @@ Component developers often offer security patches and updates to plug up known v
 ## 10. Insufficient Logging And Monitoring
 
 Many web applications are not taking enough steps to detect data breaches. The average discovery time for a breach is around 200 days after it has happened. This gives attackers a lot of time to cause damage before there is any response. OWASP recommends that web developers should implement logging and monitoring as well as incident response plans to ensure that they are made aware of attacks on their applications.
+
+
+## References
+- [OWASP Top 10 (2017).pdf](https://owasp.org/www-pdf-archive/OWASP_Top_10-2017_%28en%29.pdf.pdf)
