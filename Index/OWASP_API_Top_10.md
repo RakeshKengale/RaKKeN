@@ -1,5 +1,5 @@
 
-# OWASP Security Top 10 - API - (2019)
+# OWASP Top 10 - API - (2019)
 
 The Open Web Application Security Project (OWASP) is a non-profit, collaborative online community behind the OWASP Top 10. They produce articles, methodologies, documentation, tools, and technologies to improve application security.
 Since 2003, OWASP Top 10 project has been the authoritative list of information prevalent to web application vulnerabilities and the ways to mitigate them. However, the rise of the APIs has — and is — changing security landscape so fundamentally that a new approach is needed. As a result, in 2019, OWASP started an effort to create a version of their Top 10 dedicated specifically to API security. The first OWASP API Security Top 10 list was released on 31 December 2019.
@@ -7,16 +7,16 @@ Since 2003, OWASP Top 10 project has been the authoritative list of information 
 API Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).
 
 ### API Security Top 10 2019
-1. [Broken Object Level Authorization]()
-2. [Broken User Authentication]()
-3. [Excessive Data Exposure]()
-4. [Lack of Resources & Rate Limiting]()
-5. [Broken Function Level Authorization]()
-6. [Mass Assignment]()
-7. [Security Misconfiguration]()
-8. [Injection]()
-9. [Improper Assets Management]()
-10. [Insufficient Logging & Monitoring]()
+1. [Broken Object Level Authorization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#1-broken-object-level-authorization)
+2. [Broken User Authentication](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#2-broken-user-authentication)
+3. [Excessive Data Exposure](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#3-excessive-data-exposure)
+4. [Lack of Resources & Rate Limiting](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#4-lack-of-resources--rate-limiting)
+5. [Broken Function Level Authorization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#5-broken-function-level-authorization)
+6. [Mass Assignment](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#6-mass-assignment)
+7. [Security Misconfiguration](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#7-security-misconfiguration)
+8. [Injection](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#8-injection)
+9. [Improper Assets Management](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#9-improper-assets-management)
+10. [Insufficient Logging & Monitoring](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#10-insufficient-logging--monitoring)
 
 
 ## 1. Broken Object Level Authorization
