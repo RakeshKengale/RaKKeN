@@ -9,16 +9,16 @@ Since 2003, OWASP Top 10 project has been the authoritative list of information 
 API Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).
 
 ### API Security Top 10 2019
-1. [Broken Object Level Authorization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#1-broken-object-level-authorization)
-2. [Broken User Authentication](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#2-broken-user-authentication)
-3. [Excessive Data Exposure](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#3-excessive-data-exposure)
-4. [Lack of Resources & Rate Limiting](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#4-lack-of-resources--rate-limiting)
-5. [Broken Function Level Authorization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#5-broken-function-level-authorization)
-6. [Mass Assignment](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#6-mass-assignment)
-7. [Security Misconfiguration](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#7-security-misconfiguration)
-8. [Injection](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#8-injection)
-9. [Improper Assets Management](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#9-improper-assets-management)
-10. [Insufficient Logging & Monitoring](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/OWASP_API_Top_10.md#10-insufficient-logging--monitoring)
+1. [Broken Object Level Authorization](OWASP_API_Top_10.md#1-broken-object-level-authorization)
+2. [Broken User Authentication](OWASP_API_Top_10.md#2-broken-user-authentication)
+3. [Excessive Data Exposure](OWASP_API_Top_10.md#3-excessive-data-exposure)
+4. [Lack of Resources & Rate Limiting](OWASP_API_Top_10.md#4-lack-of-resources--rate-limiting)
+5. [Broken Function Level Authorization](OWASP_API_Top_10.md#5-broken-function-level-authorization)
+6. [Mass Assignment](OWASP_API_Top_10.md#6-mass-assignment)
+7. [Security Misconfiguration](OWASP_API_Top_10.md#7-security-misconfiguration)
+8. [Injection](OWASP_API_Top_10.md#8-injection)
+9. [Improper Assets Management](OWASP_API_Top_10.md#9-improper-assets-management)
+10. [Insufficient Logging & Monitoring](OWASP_API_Top_10.md#10-insufficient-logging--monitoring)
 
 
 ## 1. Broken Object Level Authorization
