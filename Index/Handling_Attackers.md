@@ -4,10 +4,11 @@
 
 Anyone designing an application for which security is remotely important must assume that it will be directly targeted by dedicated and skilled attackers. A key function of the application’s security mechanisms is being able to handle and react to these attacks in a controlled way. These mechanisms often incorporate a mix of defensive and offensive measures designed to frustrate an attacker as much as possible and give the application’s owners appropriate notifi cation and evidence of what has taken place. Measures implemented to handle attackers typically include the following tasks:
 
-- [Handling errors]()
-- [Maintaining audit logs]()
-- [Alerting administrators]()
-- [Reacting to attacks]()
+#### [Handling errors](#handling-errors-1)
+#### [Maintaining audit logs](#maintaining-audit-logs-1)
+#### [Alerting administrators](#alerting-administrators-1)
+#### [Reacting to attacks](#reacting-to-attacks)
+#### [Managing the Application](#managing-the-application-1)
 
 ## Handling Errors 
 
@@ -58,7 +59,7 @@ Some of these functions can be provided reasonably well by off-the-shelf applica
 
 __For example,__
 
-perhaps they modify the account number in a hidden field to access another user’s data, or submit requests out of sequence to exploit defects in the application’s logic. In these cases, a request submitted by an attacker may be identical to that submitted by a benign user. What makes it malicious are the circumstances under which it is made.
+Perhaps they modify the account number in a hidden field to access another user’s data, or submit requests out of sequence to exploit defects in the application’s logic. In these cases, a request submitted by an attacker may be identical to that submitted by a benign user. What makes it malicious are the circumstances under which it is made.
 In any security-critical application, the most effective way to implement realtime alerting is to integrate this tightly with the application’s input validation mechanisms and other controls. 
 
 __For example,__ 
