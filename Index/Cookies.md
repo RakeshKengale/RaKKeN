@@ -16,17 +16,17 @@ __- tracking__
 In order to secure cookie data, the industry has developed means to help lock down these cookies and limit their attack surface. Over time cookies have become a preferred storage mechanism for web applications, as they allow great flexibility in use and protection.
 
 ### The means to protect the cookies are:
-- [Cookie Attributes](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#cookie-attributes)
-- [Cookie Prefixes](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#cookie-prefixes)
+- [Cookie Attributes](Cookies.md#cookie-attributes)
+- [Cookie Prefixes](Cookies.md#cookie-prefixes)
 
 
 ### Cookie Attributes:
-1. [Secure](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#1-secure-attribute)
-2. [Domain](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#2-domain-attribute)
-3. [Path](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#3-path-attribute)
-4. [HTTPOnly](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#4-httponly-attribute)
-5. [Expires](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#5-expires-attribute)
-6. [SameSite](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#6-samesite-attribute)
+1. [Secure](Cookies.md#1-secure-attribute)
+2. [Domain](Cookies.md#2-domain-attribute)
+3. [Path](Cookies.md#3-path-attribute)
+4. [HTTPOnly](Cookies.md#4-httponly-attribute)
+5. [Expires](Cookies.md#5-expires-attribute)
+6. [SameSite](Cookies.md#6-samesite-attribute)
 
 #### 1. Secure Attribute 
 
@@ -70,9 +70,9 @@ Unlike session cookies, persistent cookies will be used by the browser until the
 
 The `SameSite` attribute is used to assert that a cookie ought not to be sent along with cross-site requests. This feature allows the server to mitigate the risk of cross-orgin information leakage. In some cases, it is used too as a risk reduction (or defense in depth mechanism) strategy to prevent `cross-site request forgery` attacks. This attribute can be configured in three different modes:
 
-- [Strict](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#strict-value)
-- [Lax](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#lax-value)
-- [None](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#none-value)
+- [Strict](Cookies.md#strict-value)
+- [Lax](Cookies.md#lax-value)
+- [None](Cookies.md#none-value)
 
 #### Strict Value
 
@@ -88,8 +88,8 @@ The None value specifies that the browser will send the cookie on cross-site req
 
 ## Cookie Prefixes
 
-- [Host](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#host-prefix)
-- [Secure](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Cookies.md#secure-prefix)
+- [Host](Cookies.md#host-prefix)
+- [Secure](Cookies.md#secure-prefix)
 
 By design cookies do not have the capabilities to guarantee the integrity and confidentiality of the information stored in them. Those limitations make it impossible for a server to have confidence about how a given cookie’s attributes were set at creation. In order to give the servers such features in a backwards-compatible way, the industry has introduced the concept of `Cookie Name Prefixes` to facilitate passing such details embedded as part of the cookie name.
 
