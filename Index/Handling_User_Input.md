@@ -1,13 +1,13 @@
 ## Handling User Input
 
-- [Varieties of Input]() 
-- [Approaches to Input Handling]() 
-- [Boundary Validation]() 
-- [Multistep Validation and Canonicalization]()
+- [Varieties of Input](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#varieties-of-input) 
+- [Approaches to Input Handling](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#approaches-to-input-handling) 
+- [Boundary Validation](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#boundary-validation) 
+- [Multistep Validation and Canonicalization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#multistep-validation-and-canonicalization)
 
 All user input is untrusted. A huge variety of attacks against web applications involve submitting unexpected input, crafted to cause behavior that was not intended by the application’s designers. Correspondingly, a key requirement for an application’s security defenses is that the application must handle user input in a safe manner. Input-based vulnerabilities can arise anywhere within an application’s functionality, and in relation to practically every type of technology in common use. `Input validation` is often cited as the necessary defense against these attacks. However, no single protective mechanism can be employed everywhere, and defending against malicious input is often not as straightforward as it sounds. 
 
-### Varieties of Input
+## Varieties of Input
 
 A typical web application processes user-supplied data in many different forms. Some kinds of input validation may not be feasible or desirable for all these forms of input. In many cases, an application may be able to impose very stringent validation checks on a specific item of input. 
 
@@ -18,7 +18,7 @@ In other cases, the application must tolerate a wider range of possible input.
 
 __For example,__
 
-an address field submitted to a personal details page might legitimately contain letters, numbers, spaces, hyphens, apostrophes, and other characters. However, for this item, restrictions still can be feasibly imposed. The data should not exceed a reasonable length limit (such as 50 characters) and should not contain any HTML markup.
+An address field submitted to a personal details page might legitimately contain letters, numbers, spaces, hyphens, apostrophes, and other characters. However, for this item, restrictions still can be feasibly imposed. The data should not exceed a reasonable length limit (such as 50 characters) and should not contain any HTML markup.
 In some situations, an application may need to accept arbitrary input from users.
 
 __For example,__ 
@@ -28,15 +28,15 @@ A user of a blogging application may create a blog whose subject is web applicat
 ## Approaches to Input Handling
 Various broad approaches are commonly taken to the problem of handling user input. Different approaches are often preferable for different situations and different types of input, and a combination of approaches may sometimes be desirable.
 
-- [Reject Known Bad (Blacklist)]()
-- [Accept Known Good (Whitelist)]()
-- [Sanitization]()
-- [Safe Data Handling]()
-- [Semantic Checks]()
-- [Boundary Validation]()
+- [Reject Known Bad (Blacklist)](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#reject-known-bad-blacklist)
+- [Accept Known Good (Whitelist)](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#accept-known-good-whitelist)
+- [Sanitization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#sanitization)
+- [Safe Data Handling](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#safe-data-handling)
+- [Semantic Checks](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#semantic-checks)
+- [Boundary Validation](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#boundary-validation)
 
 
-### Reject Known Bad (Blacklist)
+## Reject Known Bad (Blacklist)
 
 This approach typically employs a blacklist containing a set of literal strings or patterns that are known to be used in attacks. The validation mechanism blocks any data that matches the blacklist and allows everything else.
 
@@ -73,7 +73,7 @@ __For example:__
 > Attacks that exploit the handling of NULL bytes arise in many areas of web application security. In contexts where a NULL byte acts as a string delimiter, it can be used to terminate a filename or a query to some backend component. In contexts where NULL bytes are tolerated and ignored (for example, within HTML in some browsers), arbitrary NULL bytes can be inserted within blocked expressions to defeat some blacklist-based filters.
 
 
-### Accept Known Good (Whitelist)
+## Accept Known Good (Whitelist)
 
 This approach employs a whitelist containing a set of literal strings or patterns, or a set of criteria, that is known to match only benign input. The validation mechanism allows data that matches the whitelist and blocks everything else. 
 
@@ -87,7 +87,7 @@ __For example,__
 
 some people’s names contain an apostrophe or hyphen. These can be used in attacks against databases, but it may be a requirement that the application should permit anyone to register under his or her real name. Hence, although it is often extremely effective, the whitelist-based approach does not represent an all-purpose solution to the problem of handling user input.
 
-### Sanitization
+## Sanitization
 
 This approach recognizes the need to sometimes accept data that cannot be guaranteed as safe. Instead of rejecting this input, the application sanitizes it in various ways to prevent it from having any adverse effects. Potentially malicious characters may be removed from the data, leaving only what is known to be safe, or they may be suitably encoded or `escaped` before further processing is performed.
 
@@ -95,9 +95,9 @@ Approaches based on data sanitization are often highly effective, and in many si
 
 __For example,__ 
 
-the usual defense against cross-site scripting attacks is to HTML-encode dangerous characters before these are embedded into pages of the application. 
+The usual defense against cross-site scripting attacks is to HTML-encode dangerous characters before these are embedded into pages of the application. 
 
-### Safe Data Handling
+## Safe Data Handling
 
 Many web application vulnerabilities arise because user-supplied data is processed in unsafe ways. Vulnerabilities often can be avoided not by validating the input itself but by ensuring that the processing that is performed on it is inherently safe. In some situations, safe programming methods are available that avoid common problems. 
 
@@ -106,7 +106,7 @@ __For example,__
 __SQL injection__ attacks can be prevented through the correct use of parameterized queries for database access. 
 In other situations, application functionality can be designed in such a way that inherently unsafe practices, such as passing user input to an operating system command interpreter, are avoided. This approach cannot be applied to every kind of task that web applications need to perform. But where it is available, it is an effective general approach to handling potentially malicious input.
 
-### Semantic Checks
+## Semantic Checks
 
 The defenses described so far all address the need to defend the application against various kinds of malformed data whose content has been crafted to interfere with the application’s processing. However, with some vulnerabilities the input supplied by the attacker is identical to the input that an ordinary, nonmalicious user may submit. What makes it malicious is the different circumstances under which it is submitted. 
 
