@@ -5,9 +5,9 @@
 A central security requirement that virtually any application needs to meet is controlling users’ access to its data and functionality. A typical situation has several different categories of user, such as anonymous users, ordinary authenticated users, and administrative users. Furthermore, in many situations different users are permitted to access a different set of data.
 Most web applications handle access using a trio of interrelated security mechanisms:
 
-#### [Authentication](Handling_User_Access.md#authentication)
-#### [Session management](Handling_User_Access.md#session-management)
-#### [Access control](Handling_User_Access.md#access-control)
+#### [Authentication](Handling_User_Access.md#authentication-1)
+#### [Session management](Handling_User_Access.md#session-management-1)
+#### [Access control](Handling_User_Access.md#access-control-1)
 
 Each of these mechanisms represents a significant area of an application’s attack surface, and each is fundamental to an application’s overall security posture. Because of their interdependencies, the overall security provided by the mechanisms is only as strong as the weakest link in the chain. A defect in any single component may enable an attacker to gain unrestricted access to the application’s functionality and data.
 
