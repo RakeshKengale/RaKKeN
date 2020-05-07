@@ -7,7 +7,7 @@ Anyone designing an application for which security is remotely important must as
 #### [Handling errors](#handling-errors-1)
 #### [Maintaining audit logs](#maintaining-audit-logs-1)
 #### [Alerting administrators](#alerting-administrators-1)
-#### [Reacting to attacks](#reacting-to-attacks)
+#### [Reacting to attacks](#reacting-to-attacks-1)
 #### [Managing the Application](#managing-the-application-1)
 
 ## Handling Errors 
