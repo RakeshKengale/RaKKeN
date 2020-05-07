@@ -38,8 +38,6 @@ Various broad approaches are commonly taken to the problem of handling user inpu
 - [Sanitization](Handling_User_Input.md#sanitization)
 - [Safe Data Handling](Handling_User_Input.md#safe-data-handling)
 - [Semantic Checks](Handling_User_Input.md#semantic-checks)
-- [Boundary Validation](Handling_User_Input.md#boundary-validation)
-
 
 ## Reject Known Bad (Blacklist)
 
