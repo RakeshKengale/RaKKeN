@@ -13,8 +13,10 @@ Anyone designing an application for which security is remotely important must as
 ## Handling Errors 
 
 However careful an application’s developers are when validating user input, it is virtually inevitable that some unanticipated errors will occur. Errors resulting from the actions of ordinary users are likely to be identified during functionality and user acceptance testing. Therefore, they are taken into account before the application is deployed in a production context. However, it is difficult to anticipate every possible way in which a malicious user may interact with the application, so further errors should be expected when the application comes under attack.
+
 A key defense mechanism is for the application to handle unexpected errors gracefully, and either recover from them or present a suitable error message to the user. In a production context, the application should never return any system-generated messages or other debug information in its responses. overly verbose error messages can greatly assist malicious users in furthering their attacks against the application. In some situations, an attacker can leverage defective error handling to retrieve sensitive information within the error messages themselves, providing a valuable channel for stealing data from the application.
 Most web development languages provide good error-handling support through try-catch blocks and checked exceptions. Application code should make extensive use of these constructs to catch specific and general errors and handle them appropriately. Furthermore, most application servers can be configured to deal with unhandled application errors in customized ways, such as by presenting an uninformative error message.
+
 Effective error handling is often integrated with the application’s logging mechanisms, which record as much debug information as possible about unanticipated errors. Unexpected errors often point to defects within the application’s defenses that can be addressed at the source if the application’s owner has the required information.
 
 ## Maintaining Audit Logs 
