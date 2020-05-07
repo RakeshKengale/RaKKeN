@@ -18,16 +18,16 @@ The __OWASP__ Top 10 is a regularly-updated report outlining security concerns f
 
 ## OWASP Top 10 (2017)
 
-1. [Injection](Index/OWASP_Web_Top_10.md#1-injection)
-2. [Broken Authentication](Index/OWASP_Web_Top_10.md#2-broken-authentication)
-3. [Sensitive Data Exposure](Index/OWASP_Web_Top_10.md#3-sensitive-data-exposure)
-4. [XML External Entities (XXE)](Index/OWASP_Web_Top_10.md#4-xml-external-entities-xee)
-5. [Broken Access control](Index/OWASP_Web_Top_10.md#5-broken-access-control)
-6. [Security misconfigurations](Index/OWASP_Web_Top_10.md#6-security-misconfiguration)
-7. [Cross Site Scripting (XSS)](Index/OWASP_Web_Top_10.md#7-cross-site-scripting)
-8. [Insecure Deserialization](Index/OWASP_Web_Top_10.md#8-insecure-deserialization)
-9. [Using Components with known vulnerabilities](Index/OWASP_Web_Top_10.md#9-using-components-with-known-vulnerabilities)
-10. [Insufficient logging and monitoring](Index/OWASP_Web_Top_10.md#10-insufficient-logging-and-monitoring)
+1. [Injection](OWASP_Web_Top_10.md#1-injection)
+2. [Broken Authentication](OWASP_Web_Top_10.md#2-broken-authentication)
+3. [Sensitive Data Exposure](OWASP_Web_Top_10.md#3-sensitive-data-exposure)
+4. [XML External Entities (XXE)](OWASP_Web_Top_10.md#4-xml-external-entities-xee)
+5. [Broken Access control](OWASP_Web_Top_10.md#5-broken-access-control)
+6. [Security misconfigurations](OWASP_Web_Top_10.md#6-security-misconfiguration)
+7. [Cross Site Scripting (XSS)](OWASP_Web_Top_10.md#7-cross-site-scripting)
+8. [Insecure Deserialization](OWASP_Web_Top_10.md#8-insecure-deserialization)
+9. [Using Components with known vulnerabilities](OWASP_Web_Top_10.md#9-using-components-with-known-vulnerabilities)
+10. [Insufficient logging and monitoring](OWASP_Web_Top_10.md#10-insufficient-logging-and-monitoring)
 
 
 ## 1. Injection
