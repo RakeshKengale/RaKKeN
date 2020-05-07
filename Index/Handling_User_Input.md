@@ -3,9 +3,9 @@
 ## Handling User Input
 
 - [Varieties of Input](Handling_User_Input.md#varieties-of-input) 
-- [Approaches to Input Handling](/Handling_User_Input.md#approaches-to-input-handling) 
-- [Boundary Validation](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#boundary-validation) 
-- [Multistep Validation and Canonicalization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#multistep-validation-and-canonicalization)
+- [Approaches to Input Handling](Handling_User_Input.md#approaches-to-input-handling) 
+- [Boundary Validation](Handling_User_Input.md#boundary-validation) 
+- [Multistep Validation and Canonicalization](Handling_User_Input.md#multistep-validation-and-canonicalization)
 
 All user input is untrusted. A huge variety of attacks against web applications involve submitting unexpected input, crafted to cause behavior that was not intended by the application’s designers. Correspondingly, a key requirement for an application’s security defenses is that the application must handle user input in a safe manner. Input-based vulnerabilities can arise anywhere within an application’s functionality, and in relation to practically every type of technology in common use. `Input validation` is often cited as the necessary defense against these attacks. However, no single protective mechanism can be employed everywhere, and defending against malicious input is often not as straightforward as it sounds. 
 
@@ -30,12 +30,12 @@ A user of a blogging application may create a blog whose subject is web applicat
 ## Approaches to Input Handling
 Various broad approaches are commonly taken to the problem of handling user input. Different approaches are often preferable for different situations and different types of input, and a combination of approaches may sometimes be desirable.
 
-- [Reject Known Bad (Blacklist)](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#reject-known-bad-blacklist)
-- [Accept Known Good (Whitelist)](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#accept-known-good-whitelist)
-- [Sanitization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#sanitization)
-- [Safe Data Handling](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#safe-data-handling)
-- [Semantic Checks](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#semantic-checks)
-- [Boundary Validation](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#boundary-validation)
+- [Reject Known Bad (Blacklist)](Handling_User_Input.md#reject-known-bad-blacklist)
+- [Accept Known Good (Whitelist)](Handling_User_Input.md#accept-known-good-whitelist)
+- [Sanitization](Handling_User_Input.md#sanitization)
+- [Safe Data Handling](Handling_User_Input.md#safe-data-handling)
+- [Semantic Checks](Handling_User_Input.md#semantic-checks)
+- [Boundary Validation](Handling_User_Input.md#boundary-validation)
 
 
 ## Reject Known Bad (Blacklist)
@@ -132,7 +132,7 @@ where boundary validation is the most effective approach to defending against ma
 
 4. The application displays the user’s account information back to the user’s browser. To prevent cross-site scripting attacks, the application HTMLencodes any user-supplied data that is embedded into the returned page.
 
-![SQL_Query_To_Verify_The_User’s_Credentials](https://github.com/RakeshKengale/RaKKeN/blob/master/Images/SQL_Query_To_Verify_The_User%E2%80%99s_Credentials.png)
+![SQL_Query_To_Verify_The_User’s_Credentials](Images/SQL_Query_To_Verify_The_User%E2%80%99s_Credentials.png)
 
 If variations on this functionality involved passing data to further application components, similar defenses would need to be implemented at the relevant trust boundaries. 
 
