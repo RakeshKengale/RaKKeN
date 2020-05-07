@@ -39,7 +39,7 @@ Various broad approaches are commonly taken to the problem of handling user inpu
 - [Safe Data Handling](Handling_User_Input.md#safe-data-handling)
 - [Semantic Checks](Handling_User_Input.md#semantic-checks)
 
-## Reject Known Bad (Blacklist)
+### Reject Known Bad (Blacklist)
 
 This approach typically employs a blacklist containing a set of literal strings or patterns that are known to be used in attacks. The validation mechanism blocks any data that matches the blacklist and allows everything else.
 
@@ -76,7 +76,7 @@ __For example:__
 > Attacks that exploit the handling of NULL bytes arise in many areas of web application security. In contexts where a NULL byte acts as a string delimiter, it can be used to terminate a filename or a query to some backend component. In contexts where NULL bytes are tolerated and ignored (for example, within HTML in some browsers), arbitrary NULL bytes can be inserted within blocked expressions to defeat some blacklist-based filters.
 
 
-## Accept Known Good (Whitelist)
+### Accept Known Good (Whitelist)
 
 This approach employs a whitelist containing a set of literal strings or patterns, or a set of criteria, that is known to match only benign input. The validation mechanism allows data that matches the whitelist and blocks everything else. 
 
@@ -90,7 +90,7 @@ __For example,__
 
 some people’s names contain an apostrophe or hyphen. These can be used in attacks against databases, but it may be a requirement that the application should permit anyone to register under his or her real name. Hence, although it is often extremely effective, the whitelist-based approach does not represent an all-purpose solution to the problem of handling user input.
 
-## Sanitization
+### Sanitization
 
 This approach recognizes the need to sometimes accept data that cannot be guaranteed as safe. Instead of rejecting this input, the application sanitizes it in various ways to prevent it from having any adverse effects. Potentially malicious characters may be removed from the data, leaving only what is known to be safe, or they may be suitably encoded or `escaped` before further processing is performed.
 
@@ -100,7 +100,7 @@ __For example,__
 
 The usual defense against cross-site scripting attacks is to HTML-encode dangerous characters before these are embedded into pages of the application. 
 
-## Safe Data Handling
+### Safe Data Handling
 
 Many web application vulnerabilities arise because user-supplied data is processed in unsafe ways. Vulnerabilities often can be avoided not by validating the input itself but by ensuring that the processing that is performed on it is inherently safe. In some situations, safe programming methods are available that avoid common problems. 
 
@@ -109,7 +109,7 @@ __For example,__
 __SQL injection__ attacks can be prevented through the correct use of parameterized queries for database access. 
 In other situations, application functionality can be designed in such a way that inherently unsafe practices, such as passing user input to an operating system command interpreter, are avoided. This approach cannot be applied to every kind of task that web applications need to perform. But where it is available, it is an effective general approach to handling potentially malicious input.
 
-## Semantic Checks
+### Semantic Checks
 
 The defenses described so far all address the need to defend the application against various kinds of malformed data whose content has been crafted to interfere with the application’s processing. However, with some vulnerabilities the input supplied by the attacker is identical to the input that an ordinary, nonmalicious user may submit. What makes it malicious is the different circumstances under which it is submitted. 
 
