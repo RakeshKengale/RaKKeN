@@ -132,7 +132,7 @@ where boundary validation is the most effective approach to defending against ma
 
 4. The application displays the user’s account information back to the user’s browser. To prevent cross-site scripting attacks, the application HTMLencodes any user-supplied data that is embedded into the returned page.
 
-![SQL_Query_To_Verify_The_User’s_Credentials](Images/SQL_Query_To_Verify_The_User%E2%80%99s_Credentials.png)
+![SQL_Query_To_Verify_The_User’s_Credentials](../Images/SQL_Query_To_Verify_The_User%E2%80%99s_Credentials.png)
 
 If variations on this functionality involved passing data to further application components, similar defenses would need to be implemented at the relevant trust boundaries. 
 
