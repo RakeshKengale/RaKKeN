@@ -2,13 +2,13 @@
 
 ## Handling User Input
 
-[Varieties of Input](Handling_User_Input.md#varieties-of-input) 
+#### [Varieties of Input](Handling_User_Input.md#varieties-of-input-1) 
 
-[Approaches to Input Handling](Handling_User_Input.md#approaches-to-input-handling) 
+#### [Approaches to Input Handling](Handling_User_Input.md#approaches-to-input-handling-1) 
 
-[Boundary Validation](Handling_User_Input.md#boundary-validation) 
+#### [Boundary Validation](Handling_User_Input.md#boundary-validation-1) 
 
-[Multistep Validation and Canonicalization](Handling_User_Input.md#multistep-validation-and-canonicalization)
+#### [Multistep Validation and Canonicalization](Handling_User_Input.md#multistep-validation-and-canonicalization-1)
 
 All user input is untrusted. A huge variety of attacks against web applications involve submitting unexpected input, crafted to cause behavior that was not intended by the application’s designers. Correspondingly, a key requirement for an application’s security defenses is that the application must handle user input in a safe manner. Input-based vulnerabilities can arise anywhere within an application’s functionality, and in relation to practically every type of technology in common use. `Input validation` is often cited as the necessary defense against these attacks. However, no single protective mechanism can be employed everywhere, and defending against malicious input is often not as straightforward as it sounds. 
 
