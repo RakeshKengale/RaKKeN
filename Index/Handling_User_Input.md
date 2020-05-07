@@ -2,8 +2,8 @@
 
 ## Handling User Input
 
-- [Varieties of Input](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#varieties-of-input) 
-- [Approaches to Input Handling](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#approaches-to-input-handling) 
+- [Varieties of Input](Handling_User_Input.md#varieties-of-input) 
+- [Approaches to Input Handling](/Handling_User_Input.md#approaches-to-input-handling) 
 - [Boundary Validation](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#boundary-validation) 
 - [Multistep Validation and Canonicalization](https://github.com/RakeshKengale/RaKKeN/blob/master/Index/Handling_User_Input.md#multistep-validation-and-canonicalization)
 
