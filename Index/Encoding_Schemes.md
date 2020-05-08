@@ -5,11 +5,11 @@
 
 Web applications employ several different encoding schemes for their data. Both the HTTP protocol and the HTML language are historically text-based, and different encoding schemes have been devised to ensure that these mechanisms can safely handle unusual characters and binary data. When you are attacking a web application, you will frequently need to encode data using a relevant scheme to ensure that it is handled in the way you intend. Furthermore, in many cases you may be able to manipulate the encoding schemes an application uses to cause behavior that its designers did not intend.
 
-#### [URL Encoding]()
-#### [Unicode Encoding]()
-#### [HTML Encoding]()
-#### [Base64 Encoding]()
-#### [Hex Encoding]()
+#### [URL Encoding](Encoding_Schemes.md#url-encoding-1)
+#### [Unicode Encoding](Encoding_Schemes.md#unicode-encoding-1)
+#### [HTML Encoding](Encoding_Schemes.md#html-encoding-1)
+#### [Base64 Encoding](Encoding_Schemes.md#base64-encoding-1)
+#### [Hex Encoding](Encoding_Schemes.md#hex-encoding-1)
 
 
 ## URL Encoding
@@ -44,7 +44,7 @@ Unicode is a character encoding standard that is designed to support all of the 
 UTF-8 is a variable-length encoding standard that employs one or more bytes to express each character. For transmission over HTTP, the UTF-8-encoded form of a multibyte character simply uses each byte expressed in hexadecimal and preceded by the `%` prefix:
 
 - `%c2%a9 — ©`
-- `%e2%89%a0 — 􀁺`
+- `%e2%89%a0 — ≠`
 
 For the purpose of attacking web applications, Unicode encoding is primarily of interest because it can sometimes be used to defeat input validation mechanisms. If an input filter blocks certain malicious expressions, but the component that subsequently processes the input understands Unicode encoding, it may be possible to bypass the filter using various standard and malformed Unicode encodings.
 
