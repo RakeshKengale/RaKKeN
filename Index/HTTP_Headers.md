@@ -170,8 +170,7 @@ includeSubDomains |	If this optional parameter is specified, this rule applies t
 
 HTTP Public Key Pinning (HPKP) is a security mechanism which allows HTTPS websites to resist impersonation by attackers using mis-issued or otherwise fraudulent certificates. 
 
-_For example,_ 
-
+__For example,__ 
 sometimes attackers can compromise certificate authorities, and then can mis-issue certificates for a web origin.
 
 The HTTPS web server serves a list of public key hashes, and on subsequent connections clients expect that server to use one or more of those public keys in its certificate chain. Deploying HPKP safely will require operational and organizational maturity due to the risk that hosts may make themselves unavailable by pinning to a set of public key hashes that becomes invalid. With care, host operators can greatly reduce the risk of [man-in-the-middle (MITM)]() attacks and other false authentication problems for their users without incurring undue risk. 
