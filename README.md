@@ -14,7 +14,7 @@
     - [URL](Index/URL.md)
     - [HTTP Headers](Index/HTTP_Headers.md)
     - [Cookies](Index/Cookies.md)
-    - [Status Codes]()
+    - [Status Codes](Index/Status_Codes.md)
     - [HTTPS]()
     - [HTTP Proxies]()
     - [HTTP Authentication]()
