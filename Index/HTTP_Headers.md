@@ -8,7 +8,7 @@ HTTP supports a large number of headers, some of which are designed for specific
 #### [General Headers](HTTP_Headers.md#general-headers-1)
 #### [Request Headers](HTTP_Headers.md#request-headers-1)
 #### [Response Headers](HTTP_Headers.md#response-headers-1)
-#### [Response (Security) Headers](HTTP_Headers.md#response-headers-1)
+#### [Response (Security) Headers](HTTP_Headers.md#response-security-headers-1)
 
 
 ## General Headers
@@ -138,16 +138,16 @@ x-frame-options: DENY
 
 ## Response (Security) Headers 
 
-#### HTTP Strict Transport Security (HSTS)
-#### Public Key Pinning Extension for HTTP (HPKP)
-#### X-Frame-Options
-#### X-XSS-Protection
-#### X-Content-Type-Options
-#### Content-Security-Policy
-#### X-Permitted-Cross-Domain-Policies
-#### Referrer-Policy
-#### Expect-CT
-#### Feature-Policy
+#### [HTTP Strict Transport Security (HSTS)](HTTP_Headers.md#http-strict-transport-security-hsts-1)
+#### [Public Key Pinning Extension for HTTP (HPKP)](HTTP_Headers.md#public-key-pinning-extension-for-http-hpkp-1)
+#### [X-Frame-Options](HTTP_Headers.md#x-frame-options-1)
+#### [X-XSS-Protection](HTTP_Headers.md#x-xss-protection-1)
+#### [X-Content-Type-Options](HTTP_Headers.md#x-content-type-options-1)
+#### [Content-Security-Policy](HTTP_Headers.md#content-security-policy-1)
+#### [X-Permitted-Cross-Domain-Policies](HTTP_Headers.md#x-permitted-cross-domain-policies-1)
+#### [Referrer-Policy](HTTP_Headers.md#referrer-policy-1)
+#### [Expect-CT](HTTP_Headers.md#expect-ct-1)
+#### [Feature-Policy](HTTP_Headers.md#feature-policy-1)
 
 
 ## HTTP Strict Transport Security (HSTS)
