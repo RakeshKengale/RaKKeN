@@ -22,17 +22,17 @@ A URL is composed of different parts, some mandatory and others optional. Let's 
 http://www.example.com:80/path/to/myfile.html?key1=value1&key2=value2#SomewhereInTheDocument
 `
 
-__`http`__ is the protocol. The first part of the URL indicates which protocol the browser must use. A protocol is a set method for exchanging or transferring data around a computer network. Usually for websites it is the HTTP protocol or its secured version, HTTPS. 
+- __`http`__ is the protocol. The first part of the URL indicates which protocol the browser must use. A protocol is a set method for exchanging or transferring data around a computer network. Usually for websites it is the HTTP protocol or its secured version, HTTPS. 
 
-__`www.example.com`__ is the domain name. It indicates which Web server is being requested. Alternatively, it is possible to directly use an IP address, but because it is less convenient, it is not often used on the Web.
+- __`www.example.com`__ is the domain name. It indicates which Web server is being requested. Alternatively, it is possible to directly use an IP address, but because it is less convenient, it is not often used on the Web.
 
-__`:80`__ is the port. It indicates the technical "gate" used to access the resources on the web server. It is usually omitted if the web server uses the standard ports of the HTTP protocol (__80__ for __HTTP__ and __443__ for __HTTPS__) to grant access to its resources. Otherwise it is mandatory.
+- __`:80`__ is the port. It indicates the technical "gate" used to access the resources on the web server. It is usually omitted if the web server uses the standard ports of the HTTP protocol (__80__ for __HTTP__ and __443__ for __HTTPS__) to grant access to its resources. Otherwise it is mandatory.
 
-__`/path/to/myfile.html`__ is the path to the resource on the Web server. In the early days of the Web, a path like this represented a physical file location on the Web server. Nowadays, it is mostly an abstraction handled by Web servers without any physical reality.
+- __`/path/to/myfile.html`__ is the path to the resource on the Web server. In the early days of the Web, a path like this represented a physical file location on the Web server. Nowadays, it is mostly an abstraction handled by Web servers without any physical reality.
 
-__`?key1=value1&key2=value2`__ are extra parameters provided to the Web server. Those parameters are a list of key/value pairs separated with the `&` symbol. The Web server can use those parameters to do extra stuff before returning the resource. Each Web server has its own rules regarding parameters, and the only reliable way to know if a specific Web server is handling parameters is by asking the Web server owner.
+- __`?key1=value1&key2=value2`__ are extra parameters provided to the Web server. Those parameters are a list of key/value pairs separated with the `&` symbol. The Web server can use those parameters to do extra stuff before returning the resource. Each Web server has its own rules regarding parameters, and the only reliable way to know if a specific Web server is handling parameters is by asking the Web server owner.
 
-__`#SomewhereInTheDocument`__ is an anchor to another part of the resource itself. An anchor represents a sort of "bookmark" inside the resource, giving the browser the directions to show the content located at that "bookmarked" spot. On an HTML document, 
+- __`#SomewhereInTheDocument`__ is an anchor to another part of the resource itself. An anchor represents a sort of "bookmark" inside the resource, giving the browser the directions to show the content located at that "bookmarked" spot. On an HTML document, 
 
 __For example,__ 
 
