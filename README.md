@@ -12,7 +12,7 @@
     - [HTTP Requests/Responses](Index/HTTP_Requests_Responses.md)
     - [HTTP Methods](Index/HTTP_Methods.md)
     - [URL](Index/URL.md)
-    - [HTTP Headers](Index/HTTP_Headers.md)
+    - [HTTP Headers](Index/HTTP_Headers.md) (Request Headers, Response Headers, Secure Headers)
     - [Cookies](Index/Cookies.md)
     - [Status Codes](Index/Status_Codes.md)
     - [HTTPS]()
