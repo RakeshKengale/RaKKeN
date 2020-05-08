@@ -67,11 +67,11 @@ Content-Length: 128
 - `Connection` The Connection general-header field allows the sender to specify options that are desired for that particular connection and must not be communicated by proxies over further connections.
 HTTP/1.1 defines the "close" connection option for the sender to signal that the connection will be closed after completion of the response.
 
-`Connection: close`
+   - `Connection: close`
 
-By default, HTTP 1.1 uses persistent connections, where the connection does not automatically close after a transaction. HTTP 1.0, on the other hand, does not have persistent connections by default. If a 1.0 client wishes to use persistent connections, it uses the keep-alive parameter as follows:
+   - By default, HTTP 1.1 uses persistent connections, where the connection does not automatically close after a transaction. HTTP 1.0, on the other hand, does not have persistent connections by default. If a 1.0 client wishes to use persistent connections, it uses the keep-alive parameter as follows:
 
-`Connection: keep-alive`
+   - `Connection: keep-alive`
 
 - `Origin` is used in cross-domain Ajax requests to indicate the domain from which the request originated.
 
