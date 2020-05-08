@@ -6,8 +6,8 @@ Hypertext transfer protocol (HTTP) is the core communications protocol used to a
 
 HTTP uses a message-based model in which a client sends a request message and the server returns a response message. The protocol is essentially connectionless: although HTTP uses the stateful TCP protocol as its transport mechanism, each exchange of request and response is an autonomous transaction and may use a different TCP connection.
 
-#### [HTTP Requests](Index/HTTP_Requests_Responses.md#http-requests-1)
-#### [HTTP Responses](Index/HTTP_Requests_Responses.md#http-responses-1)
+#### [HTTP Requests](HTTP_Requests_Responses.md#http-requests-1)
+#### [HTTP Responses](HTTP_Requests_Responses.md#http-responses-1)
 
 ## HTTP Requests
 
