@@ -5,11 +5,13 @@
 
 Each HTTP response message must contain a status code in its first line, indicating the result of the request. The status codes fall into five groups, according to the code’s first digit:
 
-#### [1xx — (Informational)](Status_Codes.md#1xx--information-responses) The request has been received and the process is continuing..
-#### [2xx — (Success)](Status_Codes.md#2xx--successful-responses) The request was successful.
-#### [3xx — (Redirection)](Status_Codes.md#3xx--redirection-messages) The client is redirected to a different resource.
-#### [4xx — (Client Error)](Status_Codes.md#4xx--client-error-responses) The request contains  incorrect syntax or error of some kind.
-#### [5xx — (Server Error)](Status_Codes.md#5xx--server-error-responses) The server encountered an error fulfilling the request.
+Code | Description
+------------ | -------------
+[1xx — (Informational)](Status_Codes.md#1xx--information-responses) | The request has been received and the process is continuing..
+[2xx — (Success)](Status_Codes.md#2xx--successful-responses) | The request was successful.
+[3xx — (Redirection)](Status_Codes.md#3xx--redirection-messages) | The client is redirected to a different resource.
+[4xx — (Client Error)](Status_Codes.md#4xx--client-error-responses) | The request contains  incorrect syntax or error of some kind.
+[5xx — (Server Error)](Status_Codes.md#5xx--server-error-responses) | The server encountered an error fulfilling the request.
 
 There are numerous specific status codes, many of which are used only in specialized circumstances. Here are the status codes you are most likely to encounter when attacking a web application, along with the usual reason phrase associated with them:
 
