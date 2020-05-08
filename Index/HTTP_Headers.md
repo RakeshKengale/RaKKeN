@@ -58,9 +58,20 @@ Content-Length: 128
 
 - `Accept` tells the server what kinds of content the client is willing to accept, such as image types, office document formats, and so on.
  
+- `Accept-Language` The Accept-Language request-header field is similar to Accept, but restricts the set of natural languages that are preferred as a response to the request. Multiple languages can be listed separated by commas and the optional qvalue represents an acceptable quality level for non preferred languages on a scale of 0 to 1. 
+ 
 - `Accept-Encoding` tells the server what kinds of content encoding the client is willing to accept.
 
 - `Referer` specifies the URL from which the current request originated.
+
+- `Connection` The Connection general-header field allows the sender to specify options that are desired for that particular connection and must not be communicated by proxies over further connections.
+HTTP/1.1 defines the "close" connection option for the sender to signal that the connection will be closed after completion of the response.
+
+`Connection: close`
+
+By default, HTTP 1.1 uses persistent connections, where the connection does not automatically close after a transaction. HTTP 1.0, on the other hand, does not have persistent connections by default. If a 1.0 client wishes to use persistent connections, it uses the keep-alive parameter as follows:
+
+`Connection: keep-alive`
 
 - `Origin` is used in cross-domain Ajax requests to indicate the domain from which the request originated.
 
@@ -115,6 +126,10 @@ x-frame-options: DENY
 - `WWW-Authenticate` is used in responses that have a 401 status code to provide details on the type(s) of authentication that the server supports.
 
 - `Set-Cookie` issues cookies to the browser that it will submit back to the server in subsequent requests.
+
+- `Transfer-Encoding` The Transfer-Encoding general-header field indicates what type of transformation has been applied to the message body in order to safely transfer it between the sender and the recipient. This is not the same as content-encoding because transfer-encodings are a property of the message, not of the entity-body. All transfer-coding values are case-insensitive. 
+
+- `Vary` The Vary response-header field specifies that the entity has multiple sources and may therefore vary according to the specified list of request header(s). You can specify multiple headers separated by commas and a value of asterisk __*__ signals that unspecified parameters are not limited to the request-headers.
 
 - `X-Frame-Options` indicates whether and how the current response may be loaded within a browser frame.
 
