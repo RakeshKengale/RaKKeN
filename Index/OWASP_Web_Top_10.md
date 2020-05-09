@@ -53,7 +53,7 @@ Data exposure risk can be minimized by encrypting all sensitive data as well as 
 *Caching is the practice of temporarily storing data for re-use. For example, web browsers will often cache webpages so that if a user revisits thosepages within a fixed time span, the browser does not have to fetch the pages from the web.*
 
 
-## 4. XML External Entities (XEE)
+## 4. XML External Entities (XXE)
 
 This is an attack against a web application that parses XML* input. This input can reference an external entity, attempting to exploit a vulnerability in the parser. An ‘external entity’ in this context refers to a storage unit, such as a hard drive. An XML parser can be duped into sending data to an unauthorized external entity, which can pass sensitive data directly to an attacker.
 
