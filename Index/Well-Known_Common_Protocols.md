@@ -1,6 +1,6 @@
 > **[Home](https://github.com/RakeshKengale/RaKKeN)  /  Well-Known Common Protocols**
 
-## Protocol
+## Well-Known Common Protocols
 
 A protocol is a set of rules. In computer networking, a protocol defines a standard way for computers to exchange information. Most common protocols used in computer networks and the internet are `TCP (Transmission Control Protocol)`, `UDP (User Datagram Protocol)`, and `IP (Internet Protocol)`.
 
@@ -9,7 +9,7 @@ A port in computer networking is a logical access channel for communication betw
 Data on the Internet is organized into standard TCP or UDP packets. Network clients use different ports (or channels) to transfer this data. Generally one port is used to send data and another to receive it, so packets don't collide. The port number (and the destination IP address) is included as part of the header each packet is given. Ports range from `1` to `65535` for the `TCP` and `UDP` protocols.
 
 
-Port numbers are generally divided into three ranges:
+### Port numbers are generally divided into three ranges:
 
 __Well Known Ports:__
 `0–1023`, well known ports assigned to common protocols and services, they are tightly bound to some services.
