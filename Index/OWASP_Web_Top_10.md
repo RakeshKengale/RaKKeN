@@ -32,7 +32,7 @@ The __OWASP__ Top 10 is a regularly-updated report outlining security concerns f
 
 ## 1. Injection
 
-Injection attacks happen when untrusted data is sent to a code interpreter through a form input or some other data submission to a web application. For example, an attacker could enter SQL database code into a form that expects a plaintext username. If that form input is not properly secured, this would result in that SQL code being executed. This is known as an SQL injection attack.
+Injection attacks happen when untrusted data is sent to a code interpreter through a form input or some other data submission to a web application. For example, an attacker could enter SQL database code into a form that expects a plaintext username. If that form input is not properly secured, this would result in that SQL code being executed. This is known as an SQL injection attack. SQL injection (SQLi) and Cross-site Scripting (XSS) are the most common injection attacks but they are not the only ones. Code injection, CRLF injection, Email Header Injection, Host Header Injection, LDAP Injection, OS Command Injection, XPath injection these also come in injection attack.
 
 Injection attacks can be prevented by validating and/or sanitizing user-submitted data. (Validation means rejecting suspicious-looking data, while sanitization refers to cleaning up the suspicious-looking parts of the data.) In addition, a database admin can set controls to minimize the amount of information an injection attack can expose.
 
