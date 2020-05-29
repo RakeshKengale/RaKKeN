@@ -20,3 +20,4 @@
   - [Same-Origin Policy](Index/Same-Origin_Policy.md)
   - [Encoding Schemes](Index/Encoding_Schemes.md)
   - [Well-Known Common Protocols](Index/Well-Known_Common_Protocols.md)
+  - [Type Of Injection Attack](Index/Type_Of_Injection_Attack.md)
