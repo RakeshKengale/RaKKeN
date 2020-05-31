@@ -1,18 +1,20 @@
+> **[Home](https://github.com/RakeshKengale/RaKKeN)  /  TCP vs UDP**
+
 ## TCP vs UDP
 
-- What is TCP?
-- What is UDP?
-- How TCP work?
-- How UDP work?
-- Features of TCP
-- Difference between TCP and UDP
-- Application of TCP
-- Application of UDP
-- Advantage of TCP
-- Advantage of UDP
-- Disadvantages of TCP
-- Disadvantages of UDP
-- When to use UDP and TCP?
+- [What is TCP?](TCP_vs_UDP.md#what-is-tcp)
+- [What is UDP?](TCP_vs_UDP.md#what-is-udp)
+- [How TCP work?](TCP_vs_UDP.md#how-tcp-work)
+- [How UDP work?](TCP_vs_UDP.md#how-udp-work)
+- [Features of TCP](TCP_vs_UDP.md#features-of-tcp)
+- [Difference between TCP and UDP](TCP_vs_UDP.md#difference-between-tcp-and-udp)
+- [Application of TCP](TCP_vs_UDP.md#application-of-tcp)
+- [Application of UDP](TCP_vs_UDP.md#application-of-udp)
+- [Advantage of TCP](TCP_vs_UDP.md#advantage-of-tcp)
+- [Advantage of UDP](TCP_vs_UDP.md#advantage-of-udp)
+- [Disadvantages of TCP](TCP_vs_UDP.md#disadvantages-of-tcp)
+- [Disadvantages of UDP](TCP_vs_UDP.md#disadvantages-of-udp)
+- [When to use UDP and TCP?](TCP_vs_UDP.md#when-to-use-udp-and-tcp)
 
 
 ### What is TCP?
