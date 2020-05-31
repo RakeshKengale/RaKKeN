@@ -68,23 +68,20 @@ TCP offers extensive error checking mechanisms because it provides flow control 
 ### When to use UDP and TCP?
 
 - TCP is an ideal choice, and even it has associated overhead, Therefore, when most of the overhead is in the connection, your application stays connected for any length of time.
-- UDP is ideal to use with multimedia like VoIP.
 - Use TCP sockets when both client and server independently send packets at that time; an occasional delay is acceptable. (e.g., Online Poker).
+- TCP is best suited to be used for applications that require high reliability where timing is less of a concern.
+  - World Wide Web (HTTP, HTTPS)
+  - Secure Shell (SSH)
+  - File Transfer Protocol (FTP)
+  - Email (SMTP, IMAP/POP)
+
+- UDP is ideal to use with multimedia like VoIP.
 - You should use user UDP if both client and server may separately send packets, and occasional delay is also not acceptable. (e.g., Multiplayer games).
-
-TCP is best suited to be used for applications that require high reliability where timing is less of a concern.
-
-- World Wide Web (HTTP, HTTPS)
-- Secure Shell (SSH)
-- File Transfer Protocol (FTP)
-- Email (SMTP, IMAP/POP)
-
-UDP is best suited for applications that require speed and efficiency.
-
-- VPN tunneling
-- Streaming videos
-- Online games
-- Live broadcasts
-- Domain Name System (DNS)
-- Voice over Internet Protocol (VoIP)
+- UDP is best suited for applications that require speed and efficiency.
+  - VPN tunneling
+  - Streaming videos
+  - Online games
+  - Live broadcasts
+  - Domain Name System (DNS)
+  - Voice over Internet Protocol (VoIP)
 - Trivial File Transfer Protocol (TFTP)
