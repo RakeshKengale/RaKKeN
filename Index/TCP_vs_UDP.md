@@ -8,12 +8,6 @@
 - [How UDP work?](TCP_vs_UDP.md#how-udp-work)
 - [Features of TCP](TCP_vs_UDP.md#features-of-tcp)
 - [Difference between TCP and UDP](TCP_vs_UDP.md#difference-between-tcp-and-udp)
-- [Application of TCP](TCP_vs_UDP.md#application-of-tcp)
-- [Application of UDP](TCP_vs_UDP.md#application-of-udp)
-- [Advantage of TCP](TCP_vs_UDP.md#advantage-of-tcp)
-- [Advantage of UDP](TCP_vs_UDP.md#advantage-of-udp)
-- [Disadvantages of TCP](TCP_vs_UDP.md#disadvantages-of-tcp)
-- [Disadvantages of UDP](TCP_vs_UDP.md#disadvantages-of-udp)
 - [When to use UDP and TCP?](TCP_vs_UDP.md#when-to-use-udp-and-tcp)
 
 
@@ -70,68 +64,6 @@ Using handshake protocol like SYN, SYN-ACK, ACK | No handshake (so connectionles
 TCP is reliable as it guarantees delivery of data to the destination router. | The delivery of data to the destination can't be guaranteed in UDP.
 TCP offers extensive error checking mechanisms because it provides flow control and acknowledgment of data. | UDP has just a single error checking mechanism which is used for checksums.
 
-### Application of TCP
-
-Here, are pros/benefits of using the TCP/IP model:
-
-- It helps you to establish/set up a connection between different types of computers.
-- Operates independently of the operating system
-- Supports many routing-protocols.
-- It enables the internetworking between the organizations.
-- It can be operated independently.
-- Supports several routing protocols.
-- TCP can be used to establish a connection between two computers.
-
-### Application of UDP
-
-- UDP method is largely used by time-sensitive applications as well as by servers that answer small queries from a larger client base.
-- UDP is compatible with packet broadcasts for sending all over the network and for multicasting sending.
-- It is also used in Domain Name System, Voice over IP, and online games.
-
-### Advantage of TCP
-
-Here, are pros/benefits of TCP:
-
-- It helps you to establish/set up a connection between different types of computers.
-- It operates independently of the operating system.
-- It supports many routing-protocols.
-- It enables the internetworking between the organizations.
-- TCP/IP model has a highly scalable client-server architecture.
-- It can be operated independently.
-- Supports several routing protocols.
-- It can be used to establish a connection between two computers.
-
-### Advantage of UDP
-
-Here are the pros/benefits of UDP:
-
-- It never restricts you to a connection-based communication model; that's why startup latency in distributed applications is low.
-- The recipient of UDP packets gets them unmanaged, which also includes block boundaries.
-- Broadcast and multicast transmission are also available with UDP
-- Data loss can be made
-- Small transaction ( DNS lookup)
-- Bandwidth intensive app which endures packet loss
-
-### Disadvantages of TCP
-
-Here, are disadvantage of using TCP:
-
-- TCP never conclude a transmission without all data in motion being explicitly asked.
-- You can't use for broadcast or multicast transmission.
-- TCP has no block boundaries, so you need to create your own.
-- TCP offers many features that you don't want. It may waste bandwidth, time, or effort.
-- In this, model the transport layer does not guarantee delivery of packets.
-- Replacing protocol in TCP/IP is not easy.
-- It doesn't offer clear separation from its services, interfaces, and protocols.
-
-### Disadvantages of UDP
-
-Here, are important cons/drawback of UDP:
-
-- In UDP protocol, a packet may not be delivered or delivered twice. It may be delivered out of order, so you get no indication.
-- Routers are quite careless with UDP, so they never retransmit it if it collides.
-- UDP has no Congestion Control, and flow control, so implementation is the job of a user application.
-- UDP mostly like to suffer from worse packet loss 
 
 ### When to use UDP and TCP?
 
@@ -156,13 +88,3 @@ UDP is best suited for applications that require speed and efficiency.
 - Domain Name System (DNS)
 - Voice over Internet Protocol (VoIP)
 - Trivial File Transfer Protocol (TFTP)
-
-
-### KEY DIFFERENCES:
-
-- TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol.
-- The speed for TCP is slower while the speed of UDP is faster
-- TCP uses handshake protocol like SYN, SYN-ACK, ACK while UDP uses no handshake protocols
-- TCP does error checking and also makes error recovery, on the other hand, UDP performs error checking, but it discards erroneous packets.
-- TCP has acknowledgment segments, but UDP does not have any acknowledgment segment.
-- TCP is heavy-weight, and UDP is lightweight.
