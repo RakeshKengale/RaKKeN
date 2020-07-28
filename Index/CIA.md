@@ -3,7 +3,7 @@
 
 ## CIA Triad
 
-#### CIA = Confidentiality, Integrity, Availability
+__CIA__ = Confidentiality, Integrity, Availability
 
 __Confidentiality:__ Systems and data are accessible to authorized users only.
 
@@ -19,11 +19,11 @@ Confidentiality is concerned with preventing unauthorized access to sensitive in
 
 Data encryption is a common method of ensuring confidentiality. User IDs and passwords constitute a standard procedure; two-factor authentication is becoming the norm. Other options include biometric verification and security tokens, key fobs or soft tokens.Extra measures might be taken in the case of extremely sensitive documents, such as storing only on air gapped computers, disconnected storage devices or, for highly sensitive information, in hard copy form only.
 
-Cryptography – It involves the process of generating code, which allows the sender and recipients to communicate by authenticating each other with secret keys.
+__Cryptography__ – It involves the process of generating code, which allows the sender and recipients to communicate by authenticating each other with secret keys.
 
-Steganography – Technique of hiding a piece of secret information within a non-secret text or image.
+__Steganography__ – Technique of hiding a piece of secret information within a non-secret text or image.
 
-Access Control – Implementing appropriate access control mechanism to prevent from unauthorized and unauthenticated access. 
+__Access Control__ – Implementing appropriate access control mechanism to prevent from unauthorized and unauthenticated access. 
 
 ## Integrity
 
@@ -34,11 +34,11 @@ Integrity assures the sensitive data is trustworthy and accurate. Consistency, a
 These measures include file permissions and user access controls. Version control may be used to prevent erroneous changes or accidental deletion by authorized users from becoming a problem. In addition, some means must be in place to detect any changes in data that might occur as a result of non-human-caused events such as an electromagnetic pulse (EMP) or server crash. Some data might include checksums, even cryptographic checksums, for verification of integrity. Backups or redundancies must be available to restore the affected data to its correct state.
 Integrity can also be verified using a hashing algorithm. Essentially, a hash of the message is generated and appended to the end of the message. The receiving party calculates the hash of the message they received and compares it to the hash they received. If something changed in transit, the hashes won’t match.
 
-Input Validation – It ensures the integrity by restricting or validating the values that the user enters.
+__Input Validation__ – It ensures the integrity by restricting or validating the values that the user enters.
 
-Hashing – It offers integrity by the way of combining hash function and shared secret key.
+__Hashing__ – It offers integrity by the way of combining hash function and shared secret key.
 
-Digital Signature – It involves a mathematical technique to make sure that there is no alteration in the message.
+__Digital Signature__ – It involves a mathematical technique to make sure that there is no alteration in the message.
 
 
 ## Availability 
