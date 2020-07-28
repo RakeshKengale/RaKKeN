@@ -1,6 +1,8 @@
 # RaKKeN
 > Information Security Information From Web
 
+###### I am not owner of this information. this all information available on internet. 
+
 ## Index
 - ### WebAppSec
   - [OWASP Top 10 - Web (2017)](Index/OWASP_Web_Top_10.md) 
@@ -19,6 +21,8 @@
     - [HTTP Authentication](Index/HTTP_Authentication.md)
   - [Same-Origin Policy](Index/Same-Origin_Policy.md)
   - [Encoding Schemes](Index/Encoding_Schemes.md)
+  - [CIA - Confidentiality, Integrity, Availability](Index/CIA.md)
+  - [AAA - Authentication, Authorization, Accountability](Index/AAA.md)
   - [Well-Known Common Protocols](Index/Well-Known_Common_Protocols.md)
   - [Type Of Injection Attack](Index/Type_Of_Injection_Attack.md)
   
