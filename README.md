@@ -1,7 +1,6 @@
 # RaKKeN
 > Information Security Information From Web
 
-###### I am not owner of this information. this all information available on internet. 
 
 ## Index
 - ### WebAppSec
@@ -30,3 +29,8 @@
 - ### Networking
   - [TCP vs UDP](Index/TCP_vs_UDP.md) 
   - [Types Of Servers](Index/Types_of_Servers.md) 
+
+
+
+
+###### I am not owner of this information. this all information available on internet. 
