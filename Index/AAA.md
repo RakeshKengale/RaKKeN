@@ -45,8 +45,8 @@ __Levels Of Non-Repudiation__
 
 In order to experience a complete level of non-repudiation communication, it is essential to ensure this at three basic levels:
 
-__Of Origin__ – can be ensured by sending data along with digital signature & certificate
+- __Of Origin__ – can be ensured by sending data along with digital signature & certificate
 
-__At Delivery__ - can be ensured with recipient acknowledgment
+- __At Delivery__ - can be ensured with recipient acknowledgment
 
-__For Submission__ – can be ensured by sending delivery recipient to sender
+- __For Submission__ – can be ensured by sending delivery recipient to sender
