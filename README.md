@@ -22,7 +22,7 @@
   - [Encoding Schemes](Index/Encoding_Schemes.md)
   - [CIA - Confidentiality, Integrity, Availability](Index/CIA.md)
   - [AAA - Authentication, Authorization, Accountability](Index/AAA.md)
-  - [Authentication vs Authorization](Index/Authentication_vs_Authorization.md.md)
+  - [Authentication vs Authorization](Index/Authentication_vs_Authorization.md)
   - [Well-Known Common Protocols](Index/Well-Known_Common_Protocols.md)
   - [Type Of Injection Attack](Index/Type_Of_Injection_Attack.md)
   
