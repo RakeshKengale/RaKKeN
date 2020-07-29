@@ -24,7 +24,7 @@ Authorization ensures that user includes the permission/privilege to perform a c
 **For example,**
  the user playing network access role should only include the access rights associated with network action. He shouldn’t be allowed to access storage or other components. Both actions of authorization and authentication are interdependent. Usually, the process of authorization validation occurs after the successful authentication.
 
-### Access Control
+#### Access Control
 
 Access control is a security aspect that handles how user as well as system communicates and use resources. In order to enforce security, each and every access to the system and its resources should be controlled and should ensure only authorized access are allowed. This feature is mainly used to protect against unauthorized disclosure, corruption, modification, and destruction. It generally acts as the first line of defense to avoid the unauthorized access and entry. It comprises a set of controls that restrict access to resources based on the group membership, identity, clearance, physical & logical location and need-to-know. In addition, the access can be in the method of permission to consume, enter, control, restrict, use and protect the resource to guarantee three basic principles such as Availability, Confidentiality, and Integrity.
 
@@ -33,7 +33,7 @@ Access control is a security aspect that handles how user as well as system comm
 Accountability is the third plank in the AAA framework. It offers administrators, the ability to track the activities that users performed at a certain situation. It is a primary method to view what services were utilized and how much resources were used up by users. Tracking of data, resources and network usage. This can be useful when there is a breach, you can have a look at the log files to identify who and how the breach happened. Generally, accountability is enforced by performing audits as well as establishing systems to make and keep audit trails. This log management can be helpful in the prospect of IT accountability and data security. It enforces that action can be determined and traced back.
 
 
-### Non-repudiation
+#### Non-repudiation
 
 Non-repudiation is the assurance that someone cannot deny the validity of something. Non-repudiation is a legal concept that is widely used in information security and refers to a service, which provides proof of the origin of data and the integrity of the data. In other words, non-repudiation makes it very difficult to successfully deny who/where a message came from as well as the authenticity and integrity of that message. Non-repudiation deals with making evidence to prove certain actions. It is all about proving that an event or action has taken place that can’t be repudiated later. The non-repudiation can be achieved via the use of:
 
