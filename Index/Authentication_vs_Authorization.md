@@ -12,7 +12,7 @@ Authentication is the act of validating that users are who they claim to be. Aut
 Authorization is a process of giving a user permission to access a specific resource(s) or function(s). Authorization occurs after your identity is successfully authenticated by the system, which therefore gives you full access to resources such as information, files, databases, funds, etc. However authorization verifies your rights to grant you access to resources only after determining your ability to access the system and up to what extent. In other words, authorization is the process to determine whether the authenticated user has access to the particular resources. Authorization levels are the difference between a general user and an admin user. An admin user will have more abilities that a general user and it is important to authorize the rolls properly to ensure general users don't accidently, or intentionally, harm a system. Keep in mind that authentication is not 100% needed to gain authorization. This depends on the system and what information/abilities the systems has if it needs different levels of authorization and where authentication is needed. 
 
 
-#### Differences between authentication and authorization:
+### Differences between authentication and authorization:
 
 Authentication | Authorization
 ---------- | ----------
