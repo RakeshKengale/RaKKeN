@@ -195,9 +195,9 @@ Exploitation:
 
 - [Interactive Disassembler (IDA Pro)](https://www.hex-rays.com/products/ida/) - Proprietary multi-processor disassembler and debugger for Windows, GNU/Linux or macOS. 
 
--  [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware.shtml) - It also has a free version 
+- [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware.shtml) - It also has a free version 
 
-- [OllyDbg] (http://www.ollydbg.de/) - x86 debugger for Windows binaries that emphasizes binary code analysis.
+- [OllyDbg](http://www.ollydbg.de/) - x86 debugger for Windows binaries that emphasizes binary code analysis.
 
 - [Radare2](http://rada.re/r/index.html) - Open source, cross-platform reverse engineering framework.
 
