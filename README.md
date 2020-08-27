@@ -32,7 +32,7 @@
   - [Types Of Servers](Index/Types_of_Servers.md) 
   
 - ### Thick Client
-  - [Thick Client Usefull Link](Index/Thick_Client.md
+  - [Thick Client Usefull Link](Index/Thick_Client.md)
 
 
 
