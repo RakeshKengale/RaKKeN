@@ -76,18 +76,16 @@
 ### Tool's
 
 Interception proxies:
-
-    Burp Suite
-    Fiddler
-    Echo Mirage
-    Charles
-    Mallory
-    JavaSnoop
+- Burp Suite
+- Fiddler
+- Echo Mirage
+- Charles
+- Mallory
+- JavaSnoop
 
 Traffic Analysis:
-
-    TCPDump
-    Wireshark
+- TCPDump
+- Wireshark
 
 Static Analysis:
 
@@ -122,7 +120,7 @@ Exploitation:
 
 
 
-### static tools
+### Static Tools
 
 - [CFF Explorer](https://ntcore.com/?page_id=388) - A tool that was designed to make PE editing as easy as possible without losing sight of the portable executable’s internal structure.
 
@@ -132,7 +130,7 @@ Exploitation:
 
 - [Strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings) - A tool that scans any files you pass it for UNICODE or ASCII strings of a default length of three or more UNICODE or ASCII characters.
 
-### .NET decompilers and deobfuscators tools:
+### .NET Decompilers And Deobfuscators Tools:
 
 - [dnSpy](https://github.com/0xd4d/dnSpy) - A .NET debugger and assembly editor.
 
@@ -145,7 +143,7 @@ Exploitation:
 - [NeonFuscatorDeobfuscator](https://github.com/Mighty00/NeonFuscatorDeobfuscator) - .NET deobfuscator for Autori Obfuscator (NeonFuscator).
 
 
-### network sniffers 
+### Network Sniffers 
 
 - [Wireshark](https://www.wireshark.org/download.html) - Wireshark is the world’s foremost and most widely-used network protocol analyzer.
 
@@ -157,7 +155,7 @@ Exploitation:
 
 - [Microsoft Network Monitor 3.4](https://www.microsoft.com/en-us/download/details.aspx?id=4865) - Microsoft Network Monitor 3.4 is a tool for network traffic capture and protocol analysis.
 
-### proxy tools 
+### Proxy Tools 
 
 - [Burp Suite](https://portswigger.net/burp) - Burp Suite Professional is an advanced set of tools for testing web security.
 
@@ -169,7 +167,7 @@ Exploitation:
 
 
 
-### file analysis tools, sensitive data storage on files and registry
+### File Analysis Tools, Sensitive Data Storage On Files And Registry
 
 - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) - An advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
 
@@ -187,7 +185,7 @@ Exploitation:
 - [Robber](https://github.com/MojtabaTajik/Robber) - An open-source tool for finding executables prone to DLL hijacking.
 
 
-### binary analysis tools
+### Binary Analysis Tools
 
 - [Ghidra](https://www.ghidra-sre.org/) - A suite of free software reverse engineering tools developed by the NSA’s Research Directorate. It was originally exposed in WikiLeaks’s “Vault 7” publication and is now maintained as open-source software.
 
@@ -203,7 +201,7 @@ Exploitation:
 
 - [dnSpy](https://github.com/0xd4d/dnSpy) - A tool to reverse engineer .NET assemblies.
 
--  [x64dbg](http://x64dbg.com/) - Open source x64/x32 debugger for windows.
+- [x64dbg](http://x64dbg.com/) - Open source x64/x32 debugger for windows.
 
 - [JetBrains DotPeek](https://www.jetbrains.com/decompiler/)  - Free .NET decompiler and assembly browser.
 
@@ -224,7 +222,7 @@ Exploitation:
 - [Frida](https://frida.re/) - A dynamic instrumentation toolkit for developers, reverse-engineers and security researchers.
 
 
-### weak GUI control tools
+### Weak GUI Control Tools
 
 - [WinSpy++](https://www.softpedia.com/get/Programming/Other-Programming-Files/WinSpyPlusPlus.shtml) - A tool whose purpose is to help you view and modify the properties of any window in your system with great ease.
 
@@ -233,7 +231,7 @@ Exploitation:
 - [Windows Enabler](https://windows-enabler.en.uptodown.com/windows) - A simple tool that lets you activate functions your thick client application has blocked.
 
 
-### memory analysis tools
+### Memory Analysis Tools
 
 - [Winhex](https://www.x-ways.net/winhex/index-m.html) - An advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
 
