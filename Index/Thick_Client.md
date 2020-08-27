@@ -13,7 +13,7 @@
 
 
 
-### [Thick Client Penetration Testing Methodology - With Tool's](https://www.cyberark.com/resources/threat-research-blog/thick-client-penetration-testing-methodology)
+### Thick Client Penetration Testing Methodology - [With Tool's](https://www.cyberark.com/resources/threat-research-blog/thick-client-penetration-testing-methodology)
 
 ### Thick Client 
 
@@ -96,10 +96,9 @@ Interception proxies:
 
 ### Static Analysis:
 
-```
-- System Internals ( Process Monitor, Regedit, Regshot, AccessEnum)
-- CFF Explorer
-```
+- [Sysinternals Utilities](https://docs.microsoft.com/en-us/sysinternals/downloads/) - (Process Monitor, Regedit, Regshot, AccessEnum)  [GitHub](https://github.com/MicrosoftDocs/sysinternals/blob/live/sysinternals/downloads/index.md)
+- [CFF Explorer](https://ntcore.com/files/CFF_Explorer.zip) & For Other [Tools](https://ntcore.com)
+
 
 ### Decompilers:
 
@@ -130,9 +129,7 @@ Interception proxies:
 
 ### Exploitation:
 
-```
-- Metasploit ( used for side loading/ DLL and Exe injection)
-```
+- [Metasploit](https://github.com/rapid7/metasploit-framework/wiki/Nightly-Installers) - used for side loading/ DLL and Exe injection
 
 
 
@@ -145,6 +142,7 @@ Interception proxies:
 - [Detect It Easy (DIE)](https://github.com/horsicq/Detect-It-Easy) - A program for determining file types for Windows, Linux and macOS.
 
 - [Strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings) - A tool that scans any files you pass it for UNICODE or ASCII strings of a default length of three or more UNICODE or ASCII characters.
+
 
 ### .NET Decompilers And Deobfuscators Tools:
 
