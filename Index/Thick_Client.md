@@ -5,7 +5,15 @@
 ### Thick Client 
 
 
-#### [Thick Client Penetration Testing Methodology - With Tool's](https://www.cyberark.com/resources/threat-research-blog/thick-client-penetration-testing-methodology)
+### Hacking Playgrounds
+
+- [Damn Vulnerable Thick Client App](https://github.com/secvulture/dvta) - DVTA is a vulnerable thick client application developed in C# .NET.
+
+- [Vulnerable Java (EE) Application](https://github.com/appsecco/dvja) - DVJA is a vulnerable thick client application developed in JAVA.
+
+
+
+### [Thick Client Penetration Testing Methodology - With Tool's](https://www.cyberark.com/resources/threat-research-blog/thick-client-penetration-testing-methodology)
 
 ### Thick Client 
 
@@ -64,59 +72,67 @@
 - [Thick Client Proxying - Part 11 - GOG Galaxy and Extract-SNI](https://parsiya.net/blog/2020-06-22-thick-client-proxying-part-11-gog-galaxy-and-extract-sni/)
 
 
-### Hacking Playgrounds
-
-- [Damn Vulnerable Thick Client App](https://github.com/secvulture/dvta) - DVTA is a vulnerable thick client application developed in C# .NET.
-
-- [Vulnerable Java (EE) Application](https://github.com/appsecco/dvja) - DVJA is a vulnerable thick client application developed in JAVA.
-
-
 
 
 ### Tool's
 
 Interception proxies:
+
+```
 - Burp Suite
 - Fiddler
 - Echo Mirage
 - Charles
 - Mallory
 - JavaSnoop
+```
 
-Traffic Analysis:
+### Traffic Analysis:
+
+```
 - TCPDump
 - Wireshark
+```
 
-Static Analysis:
+### Static Analysis:
 
-    System Internals ( Process Monitor, Regedit, Regshot, AccessEnum)
-    CFF Explorer
+```
+- System Internals ( Process Monitor, Regedit, Regshot, AccessEnum)
+- CFF Explorer
+```
 
-Decompilers:
+### Decompilers:
 
-    Java Byte Code Editor
-    JD GUI
-    Ollydbg
+```
+- Java Byte Code Editor
+- JD GUI
+- Ollydbg
+```
 
-Packed executable checking tools:
+### Packed executable checking tools:
 
-    PE Explorer
-    PEid
-    UPX Decompression
-    .Net Reflector
-    IL Spy
+```
+- PE Explorer
+- PEid
+- UPX Decompression
+- .Net Reflector
+- IL Spy
+```
 
-Memory Analysis:
+### Memory Analysis:
 
-    Winhex
-    Volatility
-    Tsearch ( find and replace strings in memory)
-    Userdump
+```
+- Winhex
+- Volatility
+- Tsearch ( find and replace strings in memory)
+- Userdump
+```
 
-Exploitation:
+### Exploitation:
 
-    Metasploit ( used for side loading/ DLL and Exe injection)
-
+```
+- Metasploit ( used for side loading/ DLL and Exe injection)
+```
 
 
 
