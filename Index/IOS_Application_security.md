@@ -45,5 +45,5 @@ IOS Application security
 - [iOS Application Security Part 43 – FAT binaries & LLDB usage continued](https://resources.infosecinstitute.com/topic/ios-application-security-part-43-fat-binaries-lldb-usage-continued/)
 - [iOS Application Security Part 44 – Bypassing Jailbreak Detection Using Xcon](https://resources.infosecinstitute.com/topic/ios-application-security-part-44-bypassing-jailbreak-detection-using-xcon/)
 - [iOS Application Security Part 45 – Enhancements in Damn Vulnerable iOS app version 2.0](https://resources.infosecinstitute.com/topic/ios-application-security-part-45-enhancements-in-damn-vulnerable-ios-app-version-2-0/)
-- [iOS Application Security Part 46 – App Transport Security] (https://resources.infosecinstitute.com/topic/ios-application-security-part-46-app-transport-security/)
+- [iOS Application Security Part 46 – App Transport Security](https://resources.infosecinstitute.com/topic/ios-application-security-part-46-app-transport-security/)
 - [iOS Application Security Part 47 — Inspecting Apps with Frida](https://resources.infosecinstitute.com/topic/ios-application-security-part-47-inspecting-apps-with-frida/)
