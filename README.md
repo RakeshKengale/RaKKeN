@@ -35,6 +35,7 @@
   
 - ### Thick Client
   - [Thick Client Usefull Link](Index/Thick_Client.md)
+  - [Thick Client Approch 1](https://www.cobalt.io/blog/attacking-windows-applications-part-1)
 
 - ### Mobile (Android/iOS)
   - [Android Application Test Plan](https://rakeshkengale.github.io/Testplans-Android/)
