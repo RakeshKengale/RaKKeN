@@ -4,6 +4,7 @@
 
 ## Index
 - ### WebAppSec
+  - [OWASP Top 10 - Web (2021)](https://owasp.org/Top10/) 
   - [OWASP Top 10 - Web (2017)](Index/OWASP_Web_Top_10.md) 
   - [OWASP Top 10 - API (2019)](Index/OWASP_API_Top_10.md)
   - [OWASP Top 10 - Mobile (2016)](Index/OWASP_Mobile_Top_10.md)
