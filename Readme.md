@@ -1,4 +1,4 @@
-# HACKTOBERFEST 2022 :)
+# HACKTOBERFEST 2022 ;)
 ## +1
 ## +2
 ## +3
