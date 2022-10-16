@@ -1,4 +1,7 @@
-# HACKTOBERFEST 2022 :)
+
+<img align="right" alt="GIF" src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" width="408" height="318" />
+
+# HACKTOBERFEST 2022 :)  
 ## +1
 ## +2
 ## +3
@@ -28,4 +31,4 @@ We have added new Android Static and Dynamic Testing Approach
 We have added a new Android and IOS Static and Dynamic Testing Approach
 ### Give it a Star if you liked it..! 
 
-### For any query feel free to reach out to us at rakeshkengale1@gmail.com
+### For any query feel free to reach out to us at rakeshkengale1@gmail.com 
