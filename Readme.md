@@ -23,6 +23,6 @@
 We have added a new automation bash script for recon.
 We have added new Android Static and Dynamic Testing Approach
 We have added a new Android and IOS Static and Dynamic Testing Approach
-### Give it a Star if you liked it! 
+### Give it a Star if you liked it.! 
 
 ### For any query feel free to reach out to us at rakeshkengale1@gmail.com
