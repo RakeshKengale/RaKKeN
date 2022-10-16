@@ -28,4 +28,5 @@ We have added new Android Static and Dynamic Testing Approach
 We have added a new Android and IOS Static and Dynamic Testing Approach
 ### Give it a Star if you liked it..! 
 
-### For any query feel free to reach out to us at rakeshkengale1@gmail.com
+### For any query feel free to reach out to us at rakeshkengale1@gmail.com <img src="https://raw.githubusercontent.com/akashrpatil/akashrpatil/main/handshake.gif" height="30px"></h3>
+<p align="center">
