@@ -48,4 +48,4 @@
   - [Anubhav Singh - Android](https://github.com/dn0m1n8tor/AndroidPentest101)
 
 
-##### Disclaimer: I am not owner of this information. this all information available on internet. 
+##### Disclaimer: I am not owner of this information. this all information available on internet.. 
