@@ -23,8 +23,9 @@
 ` You need to make 4 pull requests to win an exclusive Hacktoberfest 2021 T-shirt and stickers! `
 
 
-We have added a new automation bash script for recon...
+We have added a new automation bash script for recon.
 We have added a OWASP TOP 2021 categarization
+We have added a Web App Test Cases.
 We have added new Android Static and Dynamic Testing Approach
 We have added a new Android and IOS Static and Dynamic Testing Approach
 
