@@ -7,14 +7,14 @@
 
 ### The first 40,000 participants who successfully complete the challenge will be eligible to receive a prize. (Do it soon, let's start! ;) )
 
-### This is a beginner-friendly repo to help you with open-source contributions. Made specifically for HACKTOBERFEST 2022!
+### This is a beginner-friendly repo to help you with open-source contributions. Made specifically for HACKTOBERFEST 2022!!!
 
 ### Please check first if your code is already present in this repo, if it's already there then don't add that!
 
 ### How to create pull requests (PRs)?
   1. Sign up or sign in to your <a href="https://github.com/"> Github </a> account.
   2. Register yourself at <a href="https://hacktoberfest.digitalocean.com/"> Hactoberfest 2022 </a> using your Github account.
-  3. Come back to this <a href="https://github.com/RakeshKengale/RaKKeN"> Hacktoberfest repo</a>.
+  3. Come back to this <a href="https://github.com/RakeshKengale/RaKKeN"> Hacktoberfest repository</a>.
   4. Click on Fork.
   4. Open the folder of your choice. (If it is not listed, feel free to add one, or simply go to others).
   5. Add your algorithm/code or simply follow the steps mentioned there..
@@ -28,11 +28,7 @@ We have added a OWASP TOP 2021 categarization
 We have added new Android Static and Dynamic Testing Approach
 We have added a new Android and IOS Static and Dynamic Testing Approach
 
-### Give it a Star if you liked it..! 
-
-### For any query feel free to reach out to us at rakeshkengale1@gmail.com
-
-###FAQs
+### FAQs
 1. Swag & Shipping
 2. When will I receive my t-shirt?
 3. What t-shirt size should I order?
@@ -48,3 +44,8 @@ We have added a new Android and IOS Static and Dynamic Testing Approach
 13. Customs is asking me for an invoice; where do I find one of those?
 14. I didn’t receive my Hacktoberfest 2021 t-shirt/swag.
 15. Can I receive a shirt and plant a tree?
+
+### Give it a Star if you liked it..! 
+
+### For any query feel free to reach out to us at rakeshkengale1@gmail.com
+
