@@ -1,4 +1,4 @@
-# HACKTOBERFEST 2022 :)
+# HACKTOBERFEST 2022 ;)
 ## +1
 ## +2
 ## +3
@@ -24,8 +24,27 @@
 
 
 We have added a new automation bash script for recon...
+We have added a OWASP TOP 2021 categarization
 We have added new Android Static and Dynamic Testing Approach
 We have added a new Android and IOS Static and Dynamic Testing Approach
+
 ### Give it a Star if you liked it..! 
 
 ### For any query feel free to reach out to us at rakeshkengale1@gmail.com
+
+###FAQs
+1. Swag & Shipping
+2. When will I receive my t-shirt?
+3. What t-shirt size should I order?
+4. Why isn’t there a Women’s fit t-shirt this year?
+5. Tracking for my order is not active; is my tracking number correct?
+6. How do I return or exchange an item?
+7. Did my t-shirt order go through?
+8. Will I have to pay anything to receive my t-shirt/stickers?
+9. Will I have to pay anything/custom tax/duty for the t-shirt?
+10. What countries do you ship to?
+11. My international order is delayed. What can I do?
+12. Can I update my email address, delivery address, and/or the size of my t-shirt?
+13. Customs is asking me for an invoice; where do I find one of those?
+14. I didn’t receive my Hacktoberfest 2021 t-shirt/swag.
+15. Can I receive a shirt and plant a tree?
