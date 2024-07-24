@@ -18,5 +18,6 @@ sudo docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mob
 ```
 
 Now, access MobSF on the browser by URL http://127.0.0.1:8000 
+
 The default credentials are:
 ```mobsf```/```mobsf```
