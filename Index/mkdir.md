@@ -44,10 +44,14 @@ The `mkdir` command in Windows Command Prompt (cmd) is used to create directorie
 
 
 6. **Creating directories and multiple files with in-folder together (using `&&`):**
-   - **Description:** Creates directories and files in a single command line using the `&&` operator.
+   - **Description:** Creates directories and  multiple files with in-folder together in a single command line using the `&&` operator.
    - **Command:**
      ```cmd
      mkdir Folder1 Folder2 && (echo File content > Folder1\file1.txt) && (echo File content > Folder1\file2.txt) && (echo File content > Folder2\file1.txt) && (echo File content > Folder2\file2.txt)
+     ```
+   - **PHP folders/files Command:**
+     ```cmd
+     mkdir config public src templates assets\css  assets\js && (echo ^<?php // config ^> > config\database.php) && (echo ^<?php // public ^> > public\index.php) && (echo ^<?php // public ^> > public\login.php) && (echo ^<?php // public ^> > public\dashboard.php) && (echo ^<?php // src ^> > src\auth.php) && (echo ^<?php // src ^> > src\user.php) && (echo ^<?php // templates ^> > templates\header.php) && (echo ^<?php // templates ^> > templates\footer.php)&& (echo ^<?php // templates ^> > templates\login_form.php)&& (echo ^<?php // templates ^> > templates\dashboard.php) && (echo ^<?php // css ^> > assets\css\style.css) && (echo ^<?php // js ^> > assets\js\script.js)
      ```
 
 
