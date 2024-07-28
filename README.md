@@ -49,9 +49,9 @@
  
 - ### Tool's
   - [Tool's](Index/Tool's.md)
-  - [Chat GPT Prompt's](Index/chat_gtp_prompts.md)
 
 - ### Command's
   - [mkdir](Index/mkdir.md)
+  - [Chat GPT Prompt's](Index/chat_gtp_prompts.md)
 
 ##### Disclaimer: I am not owner of this information. this all information available on internet... 
