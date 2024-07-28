@@ -39,7 +39,7 @@ The `mkdir` command in Windows Command Prompt (cmd) is used to create directorie
    - **Description:** Creates directories and files in a single command line using the `&&` operator.
    - **Command:**
      ```cmd
-     mkdir Folder1 Folder2 && (echo File content > Folder1\file1.txt) && (echo File content > Folder2\file2.txt)
+     mkdir Folder1 Folder2 && (echo ^add data^ > Folder1\file1.txt) && (echo ^add data^ > Folder2\file2.txt)
      ```
 
 
@@ -47,11 +47,11 @@ The `mkdir` command in Windows Command Prompt (cmd) is used to create directorie
    - **Description:** Creates directories and  multiple files with in-folder together in a single command line using the `&&` operator.
    - **Command:**
      ```cmd
-     mkdir Folder1 Folder2 && (echo File content > Folder1\file1.txt) && (echo File content > Folder1\file2.txt) && (echo File content > Folder2\file1.txt) && (echo File content > Folder2\file2.txt)
+     mkdir Folder1 Folder2 && (echo ^add data^ > Folder1\file1.txt) && (echo ^add data^ > Folder1\file2.txt) && (echo ^add data^ > Folder2\file1.txt) && (echo ^add data^ > Folder2\file2.txt)
      ```
    - **PHP folders/files Command:**
      ```cmd
-     mkdir config public src templates assets\css  assets\js && (echo ^<?php // config ^> > config\database.php) && (echo ^<?php // public ^> > public\index.php) && (echo ^<?php // public ^> > public\login.php) && (echo ^<?php // public ^> > public\dashboard.php) && (echo ^<?php // src ^> > src\auth.php) && (echo ^<?php // src ^> > src\user.php) && (echo ^<?php // templates ^> > templates\header.php) && (echo ^<?php // templates ^> > templates\footer.php)&& (echo ^<?php // templates ^> > templates\login_form.php)&& (echo ^<?php // templates ^> > templates\dashboard.php) && (echo ^<?php // css ^> > assets\css\style.css) && (echo ^<?php // js ^> > assets\js\script.js)
+     mkdir config public src templates assets\css  assets\js && (echo ^add data^ > config\database.php) && (echo ^add data^ > public\index.php) && (echo ^add data^ > public\login.php) && (echo ^add data^ > public\dashboard.php) && (echo ^add data^ > src\auth.php) && (echo ^add data^ > src\user.php) && (echo ^add data^ > templates\header.php) && (echo ^add data^ > templates\footer.php)&& (echo ^add data^ > templates\login_form.php)&& (echo ^add data^ > templates\dashboard.php) && (echo ^add data^ > assets\css\style.css) && (echo ^add data^ > assets\js\script.js)
      ```
 
 
