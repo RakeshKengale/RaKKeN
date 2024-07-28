@@ -1,6 +1,7 @@
 ## mkdir command
 
-The `mkdir` command in Windows Command Prompt (cmd) is used to create directories (folders). Here are some basic and advanced uses of the `mkdir` command with descriptions and code examples:
+The `mkdir` command in Windows Command Prompt (cmd) is used to create directories (folders). 
+
 
 1. **Create a Single Directory:**
    - **Description:** Creates a single directory.
