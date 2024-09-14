@@ -17,10 +17,10 @@ Optimize Code for Better Performance and improve application speed.
 
 - **Developing a High-Performance Web Application Using PHP, MySQL, and Modern Frontend Technologies:**
 ```cmd
-I want to create a school project involving a web application that utilizes PHP, MySQL, Bouncer, Ajax, SweetAlert 2, DataTables (JavaScript table library), parameterized queries, and PDO. The project should include the following features:
+I want to create a school project involving a web application that utilizes PHP, MySQL, Ajax, SweetAlert 2, DataTables (JavaScript table library), parameterized queries, and PDO. The project should include the following features:
 
 1. User Authentication and Authorization:
-   - Implement user authentication using Bouncer.
+   - Implement user authentication using php.
    - Ensure role-based access control and permissions.
 
 2. Database Operations:
