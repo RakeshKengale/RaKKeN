@@ -12,8 +12,10 @@ Give me the proper chatGPT prompt for a better and more accurate result. also im
 
 - **Optimize Code for Enhanced Performance and Speed:**
 ```cmd
-Optimize Code for Better Performance and improve application speed.
+Optimize Code for Better understanding, Performance and improve application speed.
 ```
+- **Error Handling and Logging:**
+```Use try-catch blocks and proper error handling to manage exception and errors gracefully.```
 
 - **Developing a High-Performance Web Application Using PHP, MySQL, and Modern Frontend Technologies:**
 ```cmd
