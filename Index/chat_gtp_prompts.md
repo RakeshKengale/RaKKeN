@@ -16,7 +16,9 @@ Optimize Code for Better understanding, Performance and improve application spee
 ```
 
 - **Error Handling and Logging:**
-```Use try-catch blocks and proper error handling to manage exception and errors gracefully.```
+```cmd
+Use try-catch blocks and proper error handling to manage exception and errors gracefully.
+```
 
 - **Developing a High-Performance Web Application Using PHP, MySQL, and Modern Frontend Technologies:**
 ```cmd
