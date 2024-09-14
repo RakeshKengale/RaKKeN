@@ -8,3 +8,9 @@
 ```cmd
 Give me the proper chatGPT prompt for a better and more accurate result. also improve prompts for better accuracy.
 ```
+
+
+- **Optimize Code for Enhanced Performance and Speed:**
+```cmd
+Optimize Code for Better Performance and improve application speed.
+```
