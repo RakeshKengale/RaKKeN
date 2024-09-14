@@ -14,6 +14,7 @@ Give me the proper chatGPT prompt for a better and more accurate result. also im
 ```cmd
 Optimize Code for Better understanding, Performance and improve application speed.
 ```
+
 - **Error Handling and Logging:**
 ```Use try-catch blocks and proper error handling to manage exception and errors gracefully.```
 
