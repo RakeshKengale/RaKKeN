@@ -53,4 +53,6 @@
 - ### Command's
   - [mkdir](Index/mkdir.md)
 
-##### Disclaimer: I am not owner of this information. this all information available on internet... 
+
+> [!Note]
+> Disclaimer: I am not owner of this information. this all information available on internet... 
