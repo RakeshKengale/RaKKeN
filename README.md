@@ -63,7 +63,5 @@
 
 > [!WARNING]
 >
-> - This repository is intended for educational purposes, security research, and authorized penetration testing only.
-> - Do not use the techniques, tools, or test cases described here against systems or applications without explicit written permission from the owner.
-> - The author is not responsible for any misuse or damage caused by the information provided in this repository.
+> This repository is intended solely for educational purposes, security research, and authorized penetration testing. Use the techniques, tools, and test cases only on systems or applications for which you have explicit written authorization. Unauthorized testing is illegal and unethical. The author assumes no responsibility for any misuse, unauthorized activities, or damage resulting from the use of the information provided in this repository.
 
