@@ -1,6 +1,13 @@
+<p align="center"><img src="/Images/banner_1.png" alt="Android Security Test Cases Banner" width="100%"></p>
+
+![GitHub stars](https://img.shields.io/github/stars/RakeshKengale/RaKKeN?style=social)
+![GitHub forks](https://img.shields.io/github/forks/RakeshKengale/RaKKeN?style=social)
+![GitHub issues](https://img.shields.io/github/issues/RakeshKengale/RaKKeN)
+![License](https://img.shields.io/github/license/RakeshKengale/RaKKeN)
+
+
 # RaKKeN
 > Information Security Information From Web[.](https://mega.nz/folder/fqhEESIL#-Gubr5CXIHMDnTz4pk-EzA)
-
 
 ## Index
 - ### WebAppSec
@@ -54,5 +61,9 @@
   - [mkdir](Index/mkdir.md)
 
 
-> [!Note]
-> Disclaimer: I am not owner of this information. this all information available on internet... 
+> [!WARNING]
+>
+> - This repository is intended for educational purposes, security research, and authorized penetration testing only.
+> - Do not use the techniques, tools, or test cases described here against systems or applications without explicit written permission from the owner.
+> - The author is not responsible for any misuse or damage caused by the information provided in this repository.
+
