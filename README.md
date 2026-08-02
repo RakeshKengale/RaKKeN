@@ -51,7 +51,7 @@
   - [iOS Application Usefull Link (infosecinstitute)](Index/IOS_Application_security.md)
   - [Mobile Application Penetration Testing Checklist](https://mobexler.com/checklist.htm)
   - [Android Penetration Testing Tools for Pentesters & Security Professionals](Index/Android_Penetration_Testing_Tools_for_Pentesters_&_Security_Professionals.md)
-  - [Harsh Bothra - Learn365](https://github.com/hacknologist/learn365)
+  - [Harsh Bothra - Learn365](https://github.com/harsh-bothra/learn365)
   - [Anubhav Singh - Android](https://github.com/dn0m1n8tor/AndroidPentest101)
  
 - ### Tool's
