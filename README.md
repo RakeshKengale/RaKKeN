@@ -2,9 +2,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/RakeshKengale/RaKKeN?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/RakeshKengale/RaKKeN?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/RakeshKengale/RaKKeN)
 ![GitHub issues](https://img.shields.io/github/issues/RakeshKengale/RaKKeN)
 ![License](https://img.shields.io/github/license/RakeshKengale/RaKKeN)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/RakeshKengale/RaKKeN)
 
 # RaKKeN
 > Information Security Information From Web[.](https://mega.nz/folder/fqhEESIL#-Gubr5CXIHMDnTz4pk-EzA)
