@@ -56,6 +56,8 @@
  
 - ### Tool's
   - [MobSF](Index/MobSF.md)
+  - [gdown](Index/gdown.md)
+  - [Megabasterd](https://github.com/tonikelope/megabasterd)
 
 - ### Command's
   - [mkdir](Index/mkdir.md)
